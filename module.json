@@ -1,0 +1,18 @@
+{
+  "id": "czechtranslationfoundry",
+  "title": "CzechTranslationFoundry",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "description": "Český překlad Foundry 12.331",
+  "authors": [
+    {
+      "name": "Lethrendis",
+      "discord": "Lethrendis",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Lethrendis/CzechTranslationFoundry"
+}
