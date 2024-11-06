@@ -3,7 +3,7 @@
   "title": "CzechTranslationFoundry",
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "12.0.0",
     "verified": "12.331"
   },
   "description": "Český překlad Foundry 12.331",
@@ -11,8 +11,15 @@
     {
       "name": "Lethrendis",
       "discord": "Lethrendis",
-      "flags": {}
+      "url": "https://github.com/Lethrendis"
     }
   ],
-  "url": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationFoundry/main/module.json"
+  "languages": [
+    {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "languages/cs.json"
+    }
+  ],
+  "url": "https://github.com/Lethrendis/CzechTranslationFoundry"
 }
