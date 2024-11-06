@@ -18,7 +18,7 @@
     {
       "lang": "cs",
       "name": "Čeština",
-      "path": "languages/cs.json"
+      "path": "lang/cs.json"
     }
   ],
   "url": "https://github.com/Lethrendis/CzechTranslationFoundry",
