@@ -21,6 +21,5 @@
       "path": "lang/cs.json"
     }
   ],
-  "url": "https://github.com/Lethrendis/CzechTranslationFoundry",
-  "manifestURL": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationFoundry/main/module.json"
+  "url": "https://github.com/Lethrendis/CzechTranslationFoundry"  
 }
