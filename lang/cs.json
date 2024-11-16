@@ -53,7 +53,7 @@
 "Maximum": "Maximální",
 "Image": "Obrázek",
 "Invalid": "Neplatný",
-"None": "Žádný",
+"None": "Nic",
 "Path": "Cesta",
 "Packs": "Balíčky",
 "Permissions": "Oprávnění",
@@ -955,7 +955,7 @@
 
 "EDITOR.Format": "Formát",
 "EDITOR.Font": "Písmo",
-"EDITOR.Inline": "Vložený",
+"EDITOR.Inline": "Vložené",
 "EDITOR.Block": "Blok",
 "EDITOR.Headings": "Nadpisy",
 "EDITOR.Heading": "Nadpis {level}",
