@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro Foundry VTT verze 12.331. Obsahuje 
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://github.com/Lethrendis/CzechTranslationFoundry/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationFoundry/main/module.json
 ```
 
 ## Autor
