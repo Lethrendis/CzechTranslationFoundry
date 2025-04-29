@@ -7,6 +7,7 @@
     "verified": "12.331"
   },
   "description": "Český překlad Foundry 12.331.",
+  "coreTranslation": true,
   "authors": [
     {
       "name": "Lethrendis",
