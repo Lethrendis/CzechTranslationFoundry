@@ -1,12 +1,12 @@
 {
   "id": "czechtranslationfoundry",
   "title": "CzechTranslationFoundry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
-    "minimum": "12.331",
-    "verified": "12.331"
+    "minimum": "13.345",
+    "verified": "13.345"
   },
-  "description": "Český překlad Foundry 12.331.",
+  "description": "Český překlad Foundry 13.345.",
   "coreTranslation": true,
   "authors": [
     {
