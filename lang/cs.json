@@ -467,7 +467,7 @@
 "CHAT.Chat": "Chat",
 "CHAT.Clear": "Vyčistit záznam chatu",
 "CHAT.Dismiss": "Zavřít",
-"CHAT.EnterMessage": "Zadej zprávu",
+"CHAT.EnterMessage": "Napiš zprávu",
 "CHAT.Export": "Exportovat záznam chatu",
 "CHAT.FlushTitle": "Vyčistit záznam chatu",
 "CHAT.FlushWarning": "Všechny zprávy v záznamu chatu budou trvale odstraněny.",
@@ -3254,7 +3254,7 @@
   "ACTIONS": {
     "Configure": "Nastavení aplikace",
     "Docs": "Zobrazení dokumentace",
-    "Invite": "Pozvat",
+    "Invite": "Pozvánky",
     "Keybindings": "Nastavení zkratek",
     "Logout": "Odhlášení",
     "ManageModules": "Správa modulů",
