@@ -700,7 +700,7 @@
   "WallInvisibleBlocks": "Pohyb",
   "WallTerrain": "Terénní zdi",
   "WallTerrainBlocks": "Vidění za druhou zeď, pohyb a slyšení",
-  "WallEthereal": "Éterické zdi",
+  "WallEthereal": "Nehmotné zdi",
   "WallEtherealBlocks": "Vidění a slyšení",
   "WallDoors": "Dveře",
   "DoorBlocks": "Pohyb, vidění a slyšení, pokud nejsou otevřené",
@@ -715,11 +715,11 @@
   "WallCloseDoors": "Zavřít všechny dveře",
   "WallDoorsClosed": "Zavřeno {number} dveří",
   "WallClear": "Vyčistit zdi",
-  "WallWindow": "Zdi s oknem",
+  "WallWindow": "Okna",
   "WallWindowBlocks": "Vidění, pohyb a slyšení za určitou vzdálenost",
   "GroupLighting": "Ovládání osvětlení",
   "LightDraw": "Nakreslit zdroj světla",
-  "LightClear": "Vyčistit světla",
+  "LightClear": "Vyčistit zdroje světla",
   "LightReset": "Resetovat válečnou mlhu",
   "LightResetP": "Takto se obnoví prozkoumaná válečná mlha pro všechny hráče v této scéně.",
   "LightDay": "Přechod na denní světlo",
@@ -734,10 +734,10 @@
   "FOWResetDesc": "Takto se obnoví válečná mlha této scény pro všechny hráče.",
   "GroupSound": "Ovládání zvuků na plátně",
   "SoundDraw": "Nakreslit zvuk na plátně",
-  "SoundPreview": "Náslech zvuků na plátně",
-  "SoundPreviewP": "Po aktivaci najeď kurzorem na zdroj zvuuk a uslyšíš jej, jako by se tvůj token nacházel na dané pozici.",
+  "SoundPreview": "Náslech zvuku na plátně",
+  "SoundPreviewP": "Po aktivaci najeď kurzorem na zdroj zvuku a uslyšíš jej, jako by se tvůj token nacházel na dané pozici.",
   "SoundClear": "Vyčistit zvuky",
-  "GroupNotes": "Poznámky záznamníku",
+  "GroupNotes": "Poznámky",
   "NoteSelect": "Vybrat poznámky",
   "NoteToggle": "Zobrazit/skrýt poznámky",
   "NoteClear": "Vyčistit poznámky",
@@ -1921,7 +1921,7 @@
   "environment": {
     "globalLight": {
       "enabled": {
-        "label": "Globální osvětlení",
+        "label": "Globální osvětlení?",
         "hint": "Tato scéna obsahuje globální zdroj světla, který poskytuje základní úroveň osvětlení všem oblastem scény."
       },
       "darkness.max": {
@@ -1934,11 +1934,11 @@
       "hint": "Aplikuje překryv, který ztmaví scénu a oslabí světelné zdroje, čímž simuluje noční či slabé osvětlení."
     },
     "darknessLock": {
-      "label": "Používat támek úrovně tmy?",
+      "label": "Zámek úrovně tmy?",
       "hint": "Pokud je tato možnost zaškrtnutá, nelze úroveň tmy měnit."
     },
     "cycle": {
-      "label": "Prolnout atmosféru",
+      "label": "Prolnout atmosféru?",
       "hint": "Pokud je tato možnost zaškrtnutá, hodnoty základní a temné atmosféry se sloučí podle aktuální úrovně tmy."
     }
   },  
@@ -3056,7 +3056,7 @@
   },
   "FIELDS": {
     "disabled": {
-      "label": "Deaktivováno",
+      "label": "Deaktivovat?",
       "hint": "Přepne, zda má být toto chování dočasně deaktivováno."
     }
   },
@@ -3076,7 +3076,7 @@
           "hint": "Události, které toto chování sleduje."
         },
         "once": {
-          "label": "Jednorázové",
+          "label": "Jednorázově?",
           "hint": "Deaktivovat chování po jeho prvním spuštění."
         }
       }
@@ -3088,8 +3088,8 @@
           "hint": "Jak se v rámci oblasti mění úroveň tmy. Toto chování respektuje globální práh osvětlení scény. Pokud celková úroveň tmy v oblasti tuto hodnotu překročí, bude globální osvětlení v dané oblasti potlačeno."
         },
         "modifier": {
-          "label": "Modifikátor",
-          "hint": "Číselný modifikátor, který se aplikuje na úroveň tmy dle zvoleného režimu."
+          "label": "Násobitel",
+          "hint": "Číselný násobitel, který se aplikuje na úroveň tmy dle zvoleného režimu."
         },
         "blur": {
           "label": "Rozostření",
@@ -3142,7 +3142,7 @@
           "hint": "Makro, které se spustí, pokud nastane některá z událostí."
         },
         "everyone": {
-          "label": "Všichni",
+          "label": "Spouštět u všech?",
           "hint": "Nastaví, zda se makro spustí u všech připojených uživatelů, nebo pouze u jednoho s dostatečným oprávněním."
         }
       }
@@ -3158,7 +3158,7 @@
     "modifyMovementCost": {
       "FIELDS": {
         "difficulties": {
-          "hint": "Nastav násobitel nákladnosti pohybu pro každou akci pohybu. Překrývající se modifikace se sčítají násobně."
+          "hint": "Nastav násobitel nákladnosti pohybu pro každou akci pohybu. Překrývající se úpravy se sčítají násobně."
         }
       }
     },
@@ -3169,8 +3169,8 @@
           "hint": "Cílová oblast, do které je token teleportován po vstupu do oblasti."
         },
         "choice": {
-          "label": "Povolit volbu",
-          "hint": "Umožní uživateli, který token přesunul, rozhodnout, zda ho teleportovat."
+          "label": "Povolit volbu?",
+          "hint": "Umožní uživateli, který token přesunul, rozhodnout, zda jej teleportovat."
         }
       },
       "Confirm": "Chceš teleportovat {token}?",
@@ -3959,8 +3959,8 @@
   "ds.label": "Stav dveří",
   "doorSound.label": "Zvuk dveří",
   "threshold.attenuation": {
-    "hint": "Vzdálenost, do jaké může vnímání proniknout touto zdí, je přizpůsobivá vzhledem k blízkosti pozorovatele a aktivačnímu prahu. Platí pouze, je-li definován práh.",
-    "label": "Slábnutí prahu blízkosti"
+    "hint": "Vzdálenost, do jaké může vnímání proniknout touto zdí, se přizpůsobuje vzhledem k blízkosti pozorovatele a prahu aktivace. Platí pouze, je-li definován práh.",
+    "label": "Útlum prahu blízkosti"
   },
   "animation": {
     "strength": {
@@ -3976,7 +3976,7 @@
   }
 },
 "WALL.ANIMATION_TYPES": {
-  "ASCEND": "Vystoupající",
+  "ASCEND": "Vystupující",
   "DESCEND": "Sestupující",
   "SLIDE": "Posuvné",
   "SWING": "Vyklápěcí",
@@ -4000,7 +4000,7 @@
 "WALL.SenseTypes.NORMAL": "Normální",
 "WALL.SenseTypes.PROXIMITY": "Blízkost",
 "WALL.SenseTypes.DISTANCE": "Obrácená blízkost",
-"WALL.Directions.BOTH": "Obě strany",
+"WALL.Directions.BOTH": "Dvoukřídlé",
 "WALL.Directions.LEFT": "Levé",
 "WALL.Directions.RIGHT": "Pravé",
 "WALL.DoorTypes.NONE": "Žádné",
