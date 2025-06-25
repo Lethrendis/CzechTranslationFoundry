@@ -77,7 +77,7 @@
 "Seconds": "Vteřiny",
 "selected": "vybrané",
 "SelectAll": "Vybrat vše",
-"Sight": "Pohled",
+"Sight": "Výhled",
 "Sheet": "Deník",
 "System": "Systém",
 "Software": "Software",
@@ -157,7 +157,7 @@
     }
   },
 
-    "APP.NavigateBackConfirm": "Skutečně chceš opustit Foundry Virtual Tabletop?",
+    "APP.NavigateBackConfirm": "Skutečně chceš opustit Foundry VTT?",
     
 "AMBIENT_LIGHT": {
   "ACTIONS": {
@@ -659,7 +659,7 @@
 "CONTROLS": {
   "Title": "Přehled ovládání hry",
   "NavLabel": "Paleta ovládání plátna",
-  "Instructions": "Tento formulář popisuje běžné klávesové zkratky a příkazy myši používané k ovládání různých aspektů prostředí Foundry Virtual Tabletop. Některé ovládací prvky jsou dostupné pouze uživatelům s rolí gamemastera, ty jsou zvýrazněny světle fialovou barvou.",
+  "Instructions": "Tento formulář popisuje běžné klávesové zkratky a příkazy myši používané k ovládání různých aspektů prostředí Foundry VTT. Některé ovládací prvky jsou dostupné pouze uživatelům s rolí gamemastera, ty jsou zvýrazněny světle fialovou barvou.",
   "GroupToken": "Ovládání tokenů",
   "CommonForceSnap": "Vynutit přichytávání k bodům mřížky",
   "BasicSelect": "Výběr tokenů",
@@ -737,7 +737,7 @@
   "SoundPreview": "Náslech zvuků na plátně",
   "SoundPreviewP": "Po aktivaci najeď kurzorem na zdroj zvuuk a uslyšíš jej, jako by se tvůj token nacházel na dané pozici.",
   "SoundClear": "Vyčistit zvuky",
-  "GroupNotes": "Poznámky deníku",
+  "GroupNotes": "Poznámky záznamníku",
   "NoteSelect": "Vybrat poznámky",
   "NoteToggle": "Zobrazit/skrýt poznámky",
   "NoteClear": "Vyčistit poznámky",
@@ -816,10 +816,10 @@
   "KeyPan": "Posun plátna",
   "KeyZoomIn": "Přiblížit",
   "KeyZoomOut": "Oddálit",
-  "KeyCycle": "Přepnout tokeny, nebo obnovit pohled",
+  "KeyCycle": "Přepnout tokeny, nebo obnovit výhled",
   "KeyMove": "Pohyb klávesnicí (tokeny, nebo dlaždicemi)",
   "KeyMoveDiag": "Diagonální pohyb",
-  "KeyMoveFace": "Změnit směr pohledu",
+  "KeyMoveFace": "Změnit směr výhledu",
   "KeyDelete": "Odstranit vybrané objekty",
   "KeyCopy": "Kopírovat prvky plátna",
   "KeyPaste": "Vložit prvky plátna",
@@ -936,8 +936,8 @@
   "AmbientSounds": "Zvuky na plátně",
   "Card": "Karta",
   "CardPlural": "Karty",
-  "Cards": "Balíček karet",
-  "CardsPlural": "Balíčky karet",
+  "Cards": "Balíček",
+  "CardsPlural": "Balíčky",
   "ChatMessage": "Zpráva v chatu",
   "ChatMessages": "Zprávy v chatu",
   "Combat": "Boj",
@@ -954,8 +954,8 @@
   "Folders": "Složky",
   "Item": "Položka",
   "Items": "Položky",
-  "JournalEntry": "Zápis v záznamníku",
-  "JournalEntries": "Zápisy v záznamníku",
+  "JournalEntry": "Záznam",
+  "JournalEntries": "Záznamy",
   "JournalEntryCategory": "Kategorie",
   "JournalEntryCategories": "Kategorie",
   "JournalEntryPage": "Stránka",
@@ -966,8 +966,8 @@
   "MeasuredTemplates": "Měřicí šablony",
   "Note": "Poznámka",
   "Notes": "Poznámky",
-  "Playlist": "Seznam skladeb",
-  "Playlists": "Seznamx skladeb",
+  "Playlist": "Skladba",
+  "Playlists": "Skladby",
   "PlaylistSound": "Zvuk v seznamu skladeb",
   "PlaylistSounds": "Zvuky v seznamech skladeb",
   "Scene": "Scéna",
@@ -1134,24 +1134,24 @@
 "EFFECT.StatusHolyShield": "Svatý štít",
 
 "ERROR": {
-  "BrowserVersion": "Foundry Virtual Tabletop používá moderní funkce JavaScriptu, které nejsou podporovány ve verzi prohlížeče {browser} starší než {minimum}. Používáš {browser} verze {version}. Aktualizuj prohlížeč, nebo použij jiný.",
-  "ElectronVersion": "Používáš starší verzi klienta Foundry Virtual Tabletop pro Electron. Pro nejlepší výkon doporučujeme znovu stáhnout požadovanou verzi Foundry Virtual Tabletop a provést úplnou přeinstalaci softwaru.",
-  "NoWebGL": "Tvůj prohlížeč aktuálně nepodporuje vykreslování pomocí WebGL, které je vyžadováno Foundry Virtual Tabletop. Ujisti se, že máš zapnuté hardwarové vykreslování a WebGL v nastavení prohlížeče.",
-  "NoWebGL2": "Tvůj prohlížeč aktuálně nepodporuje vykreslování pomocí WebGL verze 2, které je nezbytné pro správné fungování Foundry Virtual Tabletop. Mohou se tak vyskytnout chyby, respektive grafické problémy.",
+  "BrowserVersion": "Foundry VTT používá moderní funkce JavaScriptu, které nejsou podporovány ve verzi prohlížeče {browser} starší než {minimum}. Používáš {browser} verze {version}. Aktualizuj prohlížeč, nebo použij jiný.",
+  "ElectronVersion": "Používáš starší verzi klienta Foundry VTT pro Electron. Pro nejlepší výkon doporučujeme znovu stáhnout požadovanou verzi Foundry VTT a provést úplnou přeinstalaci softwaru.",
+  "NoWebGL": "Tvůj prohlížeč aktuálně nepodporuje vykreslování pomocí WebGL, které je vyžadováno Foundry VTT. Ujisti se, že máš zapnuté hardwarové vykreslování a WebGL v nastavení prohlížeče.",
+  "NoWebGL2": "Tvůj prohlížeč aktuálně nepodporuje vykreslování pomocí WebGL verze 2, které je nezbytné pro správné fungování Foundry VTT. Mohou se tak vyskytnout chyby, respektive grafické problémy.",
   "BackgroundTextureSize": "Používáš texturu pozadí scény o rozměrech {width}px × {height}px. Jeden, mžná i oba rozměry překračují maximální podporovanou velikost textury {max}px na tvém zařízení.",
   "InvalidAdminKey": "Zadané heslo správce serveru je neplatné. Pokud jsi zapomněl/a své heslo, musíš ručně odstranit soubor <strong>Config/admin.txt</strong> v uživatelských datech.",
   "LoadPackages": "Požadavek na načtení dostupných balíčků se nepodařilo spojit se serverem Foundry. Ujisti se, že aplikace umožňuje odchozí připojení.",
   "NoTargetUsersForWhisper": "Toto šeptání nemá žádné cílovíé uživatele. Zkontroluj pravopis nebo zkus \"/w [Jméno uživatele]\".",
   "CantWhisper": "Nemáš oprávnění posílat šeptané zprávy ostatním uživatelům.",
   "RendererNotDetected": "Nelze rozpoznat vykreslovací jednotku GPU. Může tak dojít k neočekávaným problémům s výkonem.",
-  "NoHardwareAcceleration": "Tvůj webový prohlížeč nemá zapnutou hardwarovou akceleraci. To výrazně sníží výkon Foundry Virtual Tabletop a způsobí grafické chyby a anomálie. Ujisti se, že máš zapnutou hardwarovou akceleraci v nastavení prohlížeče.",
-  "RequiresFullReinstall": "Je dostupná verze nová Foundry Virtual Tabletop {version}, ale nelze ji nainstalovat z aplikace, protože vyžaduje aktualizaci základních komponent, které jsou dostupné pouze přeinstalací z webu <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
-  "RequiresGenerationReinstall": "Je dostupná nová generace Foundry Virtual Tabletop verze {version}, ale musí být nainstalována ručně přeinstalací softwaru z webu <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
-  "RequiresElectronReinstall": "Je dostupná verze Foundry Virtual Tabletop {version}, ale obsahuje novou verzi Electron, kterou lze nainstalovat pouze ručně přeinstalací softwaru z webu <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+  "NoHardwareAcceleration": "Tvůj webový prohlížeč nemá zapnutou hardwarovou akceleraci. To výrazně sníží výkon Foundry VTT a způsobí grafické chyby a anomálie. Ujisti se, že máš zapnutou hardwarovou akceleraci v nastavení prohlížeče.",
+  "RequiresFullReinstall": "Je dostupná verze nová Foundry VTT {version}, ale nelze ji nainstalovat z aplikace, protože vyžaduje aktualizaci základních komponent, které jsou dostupné pouze přeinstalací z webu <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+  "RequiresGenerationReinstall": "Je dostupná nová generace Foundry VTT verze {version}, ale musí být nainstalována ručně přeinstalací softwaru z webu <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+  "RequiresElectronReinstall": "Je dostupná verze Foundry VTT {version}, ale obsahuje novou verzi Electron, kterou lze nainstalovat pouze ručně přeinstalací softwaru z webu <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
   "RESOLUTION": {
-    "Screen": "Foundry Virtual Tabletop vyžaduje rozlišení obrazovky alespoň {reqWidth}px × {reqHeight}px. Tvé aktuální rozlišení je {curWidth}px × {curHeight}px. Musíš zvýšit rozlišení, nebo použít jiné zobrazovací zařízení, jinak některé funkce nebudou fungovat správně.",
-    "Scale": "Foundry Virtual Tabletop vyžaduje rozměry okna alespoň {reqWidth}px × {reqHeight}px. Aktuální rozměry tohoto okna jsou {curWidth}px × {curHeight}px. Máš zapnutý faktor přiblížení na úrovni systému či prohlížeče, který snižuje efektivní velikost okna. Zvětši okno, nebo sniž úroveň přiblížení, jinak některé funkce nebudou fungovat správně.",
-    "Window": "Foundry Virtual Tabletop vyžaduje rozměry okna alespoň {reqWidth}px × {reqHeight}px. Aktuální rozměry tohoto okna jsou {curWidth}px × {curHeight}px. Musíš zvětšit okno, jinak některé funkce nebudou fungovat správně."
+    "Screen": "Foundry VTT vyžaduje rozlišení obrazovky alespoň {reqWidth}px × {reqHeight}px. Tvé aktuální rozlišení je {curWidth}px × {curHeight}px. Musíš zvýšit rozlišení, nebo použít jiné zobrazovací zařízení, jinak některé funkce nebudou fungovat správně.",
+    "Scale": "Foundry VTT vyžaduje rozměry okna alespoň {reqWidth}px × {reqHeight}px. Aktuální rozměry tohoto okna jsou {curWidth}px × {curHeight}px. Máš zapnutý faktor přiblížení na úrovni systému či prohlížeče, který snižuje efektivní velikost okna. Zvětši okno, nebo sniž úroveň přiblížení, jinak některé funkce nebudou fungovat správně.",
+    "Window": "Foundry VTT vyžaduje rozměry okna alespoň {reqWidth}px × {reqHeight}px. Aktuální rozměry tohoto okna jsou {curWidth}px × {curHeight}px. Musíš zvětšit okno, jinak některé funkce nebudou fungovat správně."
   }
 },
 
@@ -1164,7 +1164,7 @@
 "Acknowledge": "Potvrdit ujednání",
 "Agree": "Souhlasím",
 "AgreeLabel": "Souhlasím s těmito podmínkami",
-"AgreeHint": "Zaškrtnutím výše uvedeného políčka potvrzuješ, že sis je přečetl/a a souhlasíš s podmínkami Licenční smlouvy pro koncového uživatele Foundry Virtual Tabletop.",
+"AgreeHint": "Zaškrtnutím výše uvedeného políčka potvrzuješ, že sis je přečetl/a a souhlasíš s podmínkami Licenční smlouvy pro koncového uživatele Foundry VTT.",
 "Decline": "Odmítnout",
 "Declined": "Odmítl/a jsi Licenční smlouvu pro koncového uživatele a nemůžeš používat tento software.",
 "ErrorAgreeRequired": "Abys potvrdil/a svůj souhlas s touto dohodou a mohl/a pokračovat, musíš zaškrtnout políčko."
@@ -1326,7 +1326,7 @@
 
 "GAME.Paused": "Hra pozastavena",
 "GAME.PausedWarning": "Dokud je hra pozastavena, tuto akci nelze provést.",
-"GAME.ReturnSetup": "Vrátit se do nastavení",
+"GAME.ReturnSetup": "Návrat do nastavení",
 "GAME.ReturnSetupActiveUser": "V tomto světě je právě aktivní jeden další uživatel a bude odpojen. Chceš pokračovat?",
 "GAME.ReturnSetupActiveUsers": "V tomto světě je právě aktivních {number} dalších uživatelů a budou odpojeni. Chceš pokračovat?",
 
@@ -1836,8 +1836,8 @@
 "SCENE.GridPositionHint": "K posunu ilustrace pozadí lze používat šipky.",
 "SCENE.GridScale": "Škála mřížky",
 "SCENE.GridReset": "Vrátit změny",
-"SCENE.InitialView": "Počáteční výhled kamery",
-"SCENE.InitialViewButton": "Vyfotit aktuální výhled kamery",
+"SCENE.InitialView": "Počáteční pohled kamery",
+"SCENE.InitialViewButton": "Vyfotit aktuální pohled kamery",
 "SCENE.InitialViewHint": "Nastaví výchozí pozici kamery, která zobrazí výhled při prvním zobrazení této scény.",
 "SCENE.InvalidDimension": "Zadané rozměry by vedly k necelému číslu pro druhý rozměr. Zkus jinou hodnotu, nebo rozměry odpoj.",
 "SCENE.Loading": "Načítání {name}",
@@ -2015,15 +2015,15 @@
 
 "SERVER_SETTINGS": {
   "Title": "Nastavení aplikace",
-  "Warning": "Tato pole upravují chování aplikace Foundry Virtual Tabletop. Změny vyžadují restart serveru.",
+  "Warning": "Tato pole upravují chování aplikace Foundry VTT. Změny vyžadují restart serveru.",
   "Save": {
     "label": "Uložit nastavení aplikace",
     "warning": "Změna těchto možností konfigurace vyžaduje restart serveru, aby se projevily. Chceš pokračovat?",
-    "restart": "Nastavení aplikace Foundry Virtual Tabletop bylo změněno. Pro projevení změn je nutné restartovat server."
+    "restart": "Nastavení aplikace Foundry VTT bylo změněno. Pro projevení změn je nutné restartovat server."
   },
   "SSLCert": "SSL certifikát",
   "Telemetry": {
-    "request1": "Pokud udělíš souhlas, bude Foundry Virtual Tabletop sdílet malé množství anonymních údajů o používání se stránkou foundryvtt.com. Pomáhá ná to lépe porozumět tomu, jak je Foundry VTT používáno, a zlepšovat software.",
+    "request1": "Pokud udělíš souhlas, bude Foundry VTT sdílet malé množství anonymních údajů o používání se stránkou foundryvtt.com. Pomáhá ná to lépe porozumět tomu, jak je Foundry VTT používáno, a zlepšovat software.",
     "request2": "Tato výzva se zobrazí pouze jednou. Svá nastavení sdílení dat můžeš kdykoli změnit v nabídce Nastavení aplikace kliknutím na ikonu <i class=\"fas fa-cogs\"></i> v pravém horním rohu.",
     "yes": "Povolit sdílení",
     "no": "Odmítnout sdílení"
@@ -2037,7 +2037,7 @@
   "FIELDS": {
     "adminPassword": {
       "label": "Heslo administrátora",
-      "hint": "Heslo správce chrání přístup do této oblasti nastavení světů a Foundry Virtual Tabletop. Důrazně doporučujeme heslo administrátora pro tvůj server nastavit."
+      "hint": "Heslo správce chrání přístup do této oblasti nastavení světů a Foundry VTT. Důrazně doporučujeme heslo administrátora pro tvůj server nastavit."
     },
     "dataPath": {
       "label": "Cesta k uživatelským datům",
@@ -2045,7 +2045,7 @@
     },
     "telemetry": {
       "label": "Povolení sdílení údajů o používání",
-      "hint": "Povolí sdílení údajů o používání, které nám pomáhají zlepšovat Foundry Virtual Tabletop. Sběr údajů je popsán v našich <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">zásadách ochrany osobních údajů</a>, neobsahuje žádné osobní identifikační údaje a není sdílen ani s třetími stranami. Pomáhá nám zjistit například „které verze softwaru se nejvíce používají“, „které herní systémy jsou nejhranější“ a „které verze modulů jsou často instalovány“."
+      "hint": "Povolí sdílení údajů o používání, které nám pomáhají zlepšovat Foundry VTT. Sběr údajů je popsán v našich <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">zásadách ochrany osobních údajů</a>, neobsahuje žádné osobní identifikační údaje a není sdílen ani s třetími stranami. Pomáhá nám zjistit například „které verze softwaru se nejvíce používají“, „které herní systémy jsou nejhranější“ a „které verze modulů jsou často instalovány“."
     },
     "cssTheme": {
       "label": "Téma nastavení",
@@ -2062,22 +2062,22 @@
     "upnp.label": "Povolení UPnP",
     "port": {
       "label": "Port",
-      "hint": "Port, který bude Foundry Virtual Tabletop používat pro TCP připojení. Povolí či zakáže UPnP (Universal Plug and Play)."
+      "hint": "Port, který bude Foundry VTT používat pro TCP připojení. Povolí či zakáže UPnP (Universal Plug and Play)."
     },
     "compressStatic": {
       "label": "Komprimovat statické soubory?",
-      "hint": "Komprimuje soubory odesílané webovým serverem Foundry Virtual Tabletop, čímž snižuje objem přenášených dat."
+      "hint": "Komprimuje soubory odesílané webovým serverem Foundry VTT, čímž snižuje objem přenášených dat."
     },
     "compressSocket": {
       "label": "Komprimovat data websocketu?",
       "hint": "Povolí kompresi dat odesílaných serverem klientovi přes websocket. Doporučeno pro zlepšení výkonu sítě."
     },
     "deleteNEDB": {
-      "label": "Odstranit migrované NEDB soubory?",
+      "label": "Odstranit migrované soubory NEDB?",
       "hint": "Verzí 11 software přešel ze staré databáze NEDB na novou (LevelDB). Staré soubory se automaticky migrují, ale zůstávají uloženy pro případ návratu a diagnostiku. Tato možnost umožní jejich automatické smazání po migraci. Ve verzi 12 bude toto chování výchozí."
     },
     "hotReload": {
-      "label": "Hot-Reload balíčků",
+      "label": "Spouštět balíčky za běhu?",
       "hint": "Umožní balíčkům automaticky načítat některé soubory (např. CSS, HTML, lokalizace) bez úplného obnovení. Doporučeno pouze pro vývojáře."
     },
     "sslCert": {
@@ -2090,8 +2090,8 @@
       "hint": "Můžeš zadat konfigurační soubor AWS pro integraci S3. Cesta ke složce Config v uživatelských datech může být absolutní i relativní."
     },
     "fullscreen": {
-      "label": "Režim celé obrazovky",
-      "hint": "Spustí aplikaci v režimu celé obrazovky bez panelů nástrojů nebo dalších prvků rozhraní."
+      "label": "Spustit v režimu celé obrazovky?",
+      "hint": "Spustí aplikaci v režimu celé obrazovky bez panelů nástrojů a dalších prvků rozhraní."
     }
   }
 },
@@ -2108,7 +2108,7 @@
 "SETTINGS.Reset": "Resetovat na výchozí hodnoty",
 "SETTINGS.ResetInfo": "Obnoví všechna nastavení na výchozí hodnoty. Pro potvrzení klikni na \"Uložit změny\".",
 "SETTINGS.Save": "Uložit změny",
-"SETTINGS.Setup": "Vrátit se do nastavení",
+"SETTINGS.Setup": "Návrat do nastavení",
 "SETTINGS.ShowToolclips": "Zobrazovat popisky po přejetí myší?",
 "SETTINGS.ShowToolclipsH": "Zda se mají nad nástroji v postranním panelu zobrazovat po přejetí myší popisky.",
 "SETTINGS.None": "Žádné",
@@ -2121,17 +2121,17 @@
 "SETTINGS.ResolutionScaleN": "Používat měřítko rozlišení pixelů?",
 "SETTINGS.ResolutionScaleL": "Škála rozlišení herního plátna podle detekovaného poměru pixelů prohlížeče. Pro zobrazovací zařízení s vysokou hustotou pixelů (jako jsou retina displeje) to zvýší vykreslené rozlišení plátna na úkor výkonu aplikace. Škála rozlišení je také ovlivněna úrovní přiblížení prohlížeče a nastavením zobrazení operačního systému. V takových případech toto nastavení zvýší či sníží efektivní rozlišení plátna v závislosti na míře přiblížení. Odškrtnutí tohoto nastavení může u displejů s vysokou hustotou pixelů zlepšit výkon na úkor vizuální kvality.",
 "SETTINGS.LangN": "Jazykové preference",
-"SETTINGS.LangL": "Změní jazyk používaný Foundry Virtual Tabletop.",
+"SETTINGS.LangL": "Změní jazyk používaný ve Foundry VTT.",
 "SETTINGS.LClickReleaseN": "Uvolňovat objekty levým kliknutím?",
 "SETTINGS.LClickReleaseL": "Pokud je povoleno, kliknutí levým tlačítkem myši na prázdné místo plátna uvolní jakékoli aktuálně ovládané objekty. Pokud je zakázáno, objekty se uvolní výběrem prázdného místa, kliknutím se shiftem na objekt, případně stisknutím klávesy escape.",
 "SETTINGS.NoCanvasN": "Zakázat herní plátno?",
-"SETTINGS.NoCanvasL": "Herní plátno poskytující vizuální zobrazení virtuálního stolu může být zakázáno. To umožní slabším strojům používat určitou podmnožinu softwarových funkcí.",
+"SETTINGS.NoCanvasL": "Herní plátno poskytující vizuální zobrazení virtuálního stolu může být zakázáno. Umožní to slabším strojům používat určitou podmnožinu softwarových funkcí.",
 "SETTINGS.CBubN": "Povolit bubliny chatu?",
 "SETTINGS.CBubL": "Nastavit, zda se budou nad tokeny ve hře zobrazovat bubliny a emoce z chatu.",
 "SETTINGS.CBubPN": "Soustředit pozornost na mluvící token?",
 "SETTINGS.CBubPL": "Nastaví, zda se má kamera automaticky vycentrovat na mluvící token zobrazující bublinu chatu.",
 "SETTINGS.MaxFPSN": "Maximální FPS",
-"SETTINGS.MaxFPSL": "Omezí maximální počet snímků za sekundu. Tedy rychlsot, jakou bude Foundry Virtual Tabletop vykreslovat při aktualizace plátna. Snížení této hodnoty může zlepšit výkon aplikace na méně výkonném hardwaru.",
+"SETTINGS.MaxFPSL": "Omezí maximální počet snímků za sekundu. Tedy rychlsot, jakou bude Foundry VTT vykreslovat při aktualizace plátna. Snížení této hodnoty může zlepšit výkon aplikace na méně výkonném hardwaru.",
 "SETTINGS.DefaultSheetsN": "Výchozí deníky dokumentů",
 "SETTINGS.DefaultSheetsL": "Nastavit výchozí deníky",
 "SETTINGS.DefaultSheetsH": "Nastaví, které deníky se mají používat pro všechny dostupné dokumenty tohoto typu ve světě jako výchozí.",
@@ -2155,9 +2155,9 @@
 "SETTINGS.TabCore": "Hlavní nastavení",
 "SETTINGS.TabModule": "Nastavení modulu",
 "SETTINGS.TabSystem": "Nastavení systému",
-"SETTINGS.TokenAutoRotateN": "Automatické otáčení tokenů",
+"SETTINGS.TokenAutoRotateN": "Automatické otáčení tokenů?",
 "SETTINGS.TokenAutoRotateL": "Pokud je tato možnost zaškrnuta, budou se tokeny ve výchozím nastavení automaticky otáčet ve směru pohybu. Bez ohledu na toto nastavení ale možnost ´Zamknout otáčení´ u jednotlivých tokenů stále zabrání vizuálnímu otáčení jejich ilustrace.",
-"SETTINGS.TokenDragPreviewN": "Umožnit náhled vidění při přetahování tokenů?",
+"SETTINGS.TokenDragPreviewN": "Povolit náhled výhledu při přetahování tokenů?",
 "SETTINGS.TokenDragPreviewL": "Když je zaškrtnuto, zobrazuje se v reálném čase vidění a osvětlení tokenu během tažení myší levým tlačítkem. Tato funkce je ve výchozím nastavení odškrtnuta, protože může podporovat nežádoucí metaherní chování.",
 "SETTINGS.PrototypeTokenOverrides": {
   "Name": "Přepis prototypu tokenu",
@@ -2168,11 +2168,11 @@
     "Warning": "Tato akce odstraní všechna nastavená přepsání."
   },
   "Disabled": "Vypnuto",
-  "Submit": "Uložit přepsání",
+  "Submit": "Uložit přepisy",
   "TABS": {
     "AllTypes": {
       "Label": "[Všechny typy]",
-      "Hint": "Tato přepsání platí pro všechny prototypy tokenů bez ohledu na typ nadřazeného aktéra. Mohou být dále přepsána pro jednotlivé typy aktérů v následujících záložkách. Prázdné pole znamená, že se nic nepřepisuje."
+      "Hint": "Tato přepsání platí pro všechny prototypy tokenů bez ohledu na typ nadřazeného aktéra. Jednotlivé typy aktérů mohou být přepsány v následujících záložkách. Prázdné pole znamená, že se nic nepřepisuje."
     },
     "Basics": "Základní",
     "Marker": "Zvýraznění tahu"
@@ -2200,7 +2200,7 @@
   "MENU": {
     "name": "Nastavení uživatelského rozhraní",
     "label": "Nastavit rozhraní",
-    "hint": "Nastavení, která ovlivňují vzhled a chování uživatelského rozhraní Foundry Virtual Tabletop."
+    "hint": "Nastavení ovlivňující vzhled a chování uživatelského rozhraní Foundry VTT."
   },
   "HEADERS": {
     "theme": "Téma a barevné schéma",
@@ -2254,7 +2254,7 @@
 "SETUP": {
   "NavLabel": "Nastavení karet",
   "CoreVersion": "Verze jádrového softwaru",
-  "CoreVersionHint": "Pokud je k dispozici aktualizace jádrového softwaru Foundry Virtual Tabletop, může zde být aplikována. V současnosti používáš {versionDisplay}.",
+  "CoreVersionHint": "Pokud je k dispozici aktualizace jádrového softwaru Foundry VTT, může zde být aplikována. V současnosti používáš {versionDisplay}.",
   "SettingsHeader": "Nastavení softwaru",
   "YouMustInstallASystem": "Aby šlo vytvořit nový svět, musíš nejprve nainstalovat herní systém.",
   "UpdateAvailable": "Aktualizace verze {version} pro {channel} je nyní k dispozici!",
@@ -2267,7 +2267,7 @@
   "NoSystemsMessage": "Aby šlo vytvořit svůj první svět, musíš nejprve nainstalovat <a class=\"system-install\" data-query=\"\" title=\"Game System\">herní systém</a>. Věnuj, prosím, chvilku prozkoumání dostupných systémů a vyber si jeden z nich k instalaci. Pokud nevíš, který systém chceš, nebo pokud je tvůj preferovaný systém nedostupný, doporučujeme nainstalovat systém <a class=\"system-install\" data-query=\"Simple Worldbuilding\" title=\"Simple Worldbuilding\">Jednoduché budování světa</a>.",
   "NoWorldsMessage": "Nyní, když máš herní systém poskytující pravidla hraní, budeš chtít vytvořit svět. Herní světy jsou instancey, které obsahují všechny postavy, deníky, záznamy a mapy používané k hraní hry, ať už se jedná o jednorázovou hru, nebo plnohodnotnou kampaň.",
   "NueWorldDescription": "<p>Pro více informací o nastavení světů si přečti <a href='https://foundryvtt.com/article/game-worlds/' target='_blank'>dokumentaci ke světům</a>.</p>",
-  "SeeTutorial": "Podrobnější průvodce, jak začít s Foundry Virtual Tabletop, můžeš najít v sérii <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\" title=\"Gamemaster Tutorial\">Průvodce pro gamemastery</a> v naší <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\" title=\"Knowledge Base\">Databázi znalostí</a>.",
+  "SeeTutorial": "Podrobnější průvodce, jak začít s Foundry VTT, můžeš najít v sérii <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\" title=\"Gamemaster Tutorial\">Průvodce pro gamemastery</a> v naší <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\" title=\"Knowledge Base\">Databázi znalostí</a>.",
   "Title": "Nastavení",
   "Update": "Aktualizovat software",
   "UpdateNewGeneration": "Je vyžadována ruční instalace",
@@ -2281,11 +2281,11 @@
   "MissingRequirements": "Požadovaný {type} \"{id}\" chybí.",
   "UpdateAll": "Aktualizovat vše",
   "UpdateChannel": "Kanál aktualizace softwaru",
-  "UpdateChannelHint": "Můžeš si vybrat kanál aktualizace, aby šlo kontrolovat typy aktualizací, které chceš přijímat pro jádrový software Foundry Virtual Tabletop. Pokud nemáš konkrétní důvod to měnit, doporučujeme používat stabilní kanál.",
+  "UpdateChannelHint": "Můžeš si vybrat kanál aktualizace, aby šlo kontrolovat typy aktualizací, které chceš přijímat pro jádrový software Foundry VTT. Pokud nemáš konkrétní důvod to měnit, doporučujeme používat stabilní kanál.",
   "UpdateCheck": "Aktualizovat",
   "UpdateCheckFor": "Zkontrolovat aktualizaci",
   "UpdatePerformIfAvailable": "Provést aktualizaci, pokud je k dispozici",
-  "UpdateHint": "Kontrolou aktualizací na preferovaném kanálu aktualizace softwaru můžeš aktualizovat svůj software Foundry Virtual Tabletop na novou verzi.",
+  "UpdateHint": "Kontrolou aktualizací na preferovaném kanálu aktualizace softwaru můžeš aktualizovat svůj software Foundry VTT na novou verzi.",
   "UpdatePrototype": "Prototyp",
   "UpdatePrototypeHint": "Prototyp: Jedná se o verzi pro náhled návrhů experimentálních funkcí, které ještě nejsou plně vyvinuté.",
   "UpdateDevelopment": "Vývoj",
@@ -2300,7 +2300,7 @@
   "ReinstallPackageNotFound": "Opětovná instalace balíčku se nezdařila, protože balíček s tímto ID nebyl v centrálním repozitáři balíčků nalezen. Budeš jej muset znovu nainstalovat prostřednictvím odkazu na manifest.",
   "WorldCreate": "Vytvořit svět",
   "WorldDelete": "Odstranit svět",
-  "WorldEdit": "Úprava anotace světa",
+  "WorldEdit": "Anotace světa",
   "WorldLaunch": "Spustit svět",
   "WorldLaunchFailure": "Spuštění světa se nezdařilo: {message}. Pro další podrobnosti se podívej do konzole (F12).",
   "WorldUnavailable": "Nedostupný",
@@ -2436,18 +2436,18 @@
   "UpdateCleaningC": "Vyčištění dokončeno",
   "UpdateInstallingS": "Instalace aktualizace",
   "UpdateInstallingC": "Instalace dokončena",
-  "UpdateCompleteManual": "Aktualizace byla úspěšně dokončena. Server Foundry Virtual Tabletop kvůli ručnímu restartu.",
-  "UpdateCompleteAuto": "Aktualizace byla úspěšně dokončena. Restartuji aplikaci Foundry Virtual Tabletop.",
-  "UpdateNoInternetError": "Foundry Virtual Tabletop vyžaduje k provedení aktualizace funkční internetové připojení.",
+  "UpdateCompleteManual": "Aktualizace byla úspěšně dokončena. Ukončuji běh serveru Foundry VTT kvůli ručnímu restartu.",
+  "UpdateCompleteAuto": "Aktualizace byla úspěšně dokončena. Restartuji aplikaci Foundry VTT.",
+  "UpdateNoInternetError": "Foundry VTT vyžaduje k provedení aktualizace funkční internetové připojení.",
   "UpdateWebsiteUnreachableError": "V tuto chvíli se nedaří dosáhnout https://foundryvtt.com, zkus to prosím znovu později.",
   "UpdateWebsiteSlowWarning": "https://foundryvtt.com se v tuto chvíli zdá být pod velkým zatížením, doporučujeme zkusit to znovu později.",
-  "UpdateWarningWillDisable": "Tato aktualizace je novou hlavní verzí softwaru Foundry Virtual Tabletop. Instalace této aktualizace vyžaduje, aby byly zakázány některé nainstalované moduly, které ještě nemusí být kompatibilní.",
+  "UpdateWarningWillDisable": "Tato aktualizace je novou hlavní verzí softwaru Foundry VTT. Instalace této aktualizace vyžaduje, aby byly zakázány některé nainstalované moduly, které ještě nemusí být kompatibilní.",
   "UpdateButtonDownload": "Stáhnout aktualizaci {display}",
-  "UpdateInfoAvailable": "K dispozici je aktualizace Foundry Virtual Tabletop verze {display}!",
-  "UpdateNoUpdateMode": "Nemáš povoleno aktualizovat tuto instanci Foundry Virtual Tabletop, protože byla spuštěna v režimu --žádné aktualizace.",
+  "UpdateInfoAvailable": "K dispozici je aktualizace Foundry VTT verze {display}!",
+  "UpdateNoUpdateMode": "Nemáš povoleno aktualizovat tuto instanci Foundry VTT, protože byla spuštěna v režimu --žádné aktualizace.",
   "UpdateNotAvailable": "Na požadovaném kanálu aktualizací není aktuálně k dispozici žádná aktualizace softwaru.",
   "UpdateNoArchive": "Pro instalaci neexistuje žádný archiv aktualizací.",
-  "UpdateLicenseInvalid": "Tvůj licenční klíč pro Foundry Virtual Tabletop není platný.",
+  "UpdateLicenseInvalid": "Tvůj licenční klíč pro Foundry VTT není platný.",
   "UpdatedPackages": "Log aktualizace balíčků",
   "Package": "Balíček",
   "VersionChange": "Změna verze",
@@ -2585,7 +2585,7 @@
     "ManifestIncompatible": {
       "Title": "Varování ohledně kompatibility",
       "Warning": [
-        "{packageType} na zadané URL není kompatibilní s aktuální verzí Foundry Virtual Tabletop.",
+        "{packageType} na zadané URL není kompatibilní s aktuální verzí Foundry VTT.",
         "Opravdu chceš pokračovat v instalaci?"
       ]
     },
@@ -2596,7 +2596,7 @@
     "FullList": "Zobrazit <a href=\"{url}\" target=\"_blank\">úplný seznam</a> poznámek k verzi.",
     "BeginDownload": "Spustit stahování",
     "NewGenerationHint": "Před aktualizací zvaž vytvoření snímku všech nainstalovaných balíčků pro případ, že budeš chtít provést návrat zpět.",
-    "PreviewCompatibilityHint": "Pomocí tlačítka ´Náhled kompatibility´ níže můžeš ověřit, zda jsou všechny tvé světy, herní systémy a moduly ve Foundry Virtual Tabletop verze {version} podporovány."
+    "PreviewCompatibilityHint": "Pomocí tlačítka ´Náhled kompatibility´ níže můžeš ověřit, zda jsou všechny tvé světy, herní systémy a moduly ve Foundry VTT verze {version} podporovány."
   }
 },
 
@@ -2617,7 +2617,7 @@
   "Create": "Vytvořit balíček",
   "Compatibility": {
     "Label": "Kompatibilita",
-    "Hint": "Volitelně můžeš uvést, že je tento balíček kompatibilní pouze s určitým rozsahem verzí Foundry Virtual Tabletop. Kompatibilita může být též uvedena pro konkrétní verzi (např. \"13.339\"), nebo pro celou generaci (např. \"13\")."
+    "Hint": "Volitelně můžeš uvést, že je tento balíček kompatibilní pouze s určitým rozsahem verzí Foundry VTT. Kompatibilita může být též uvedena pro konkrétní verzi (např. \"13.339\"), nebo pro celou generaci (např. \"13\")."
   },
     "TagJavaScript": "JavaScript",
     "TagCSS": "CSS",
@@ -2872,8 +2872,8 @@
 "PERMISSION.FilesUploadHint": "Povolí uživatelům s touto rolí nahrávat obsah na server pomocí prohlížeče souborů.",
 "PERMISSION.JournalCreate": "Vytváření záznamů",
 "PERMISSION.JournalCreateHint": "Povolí uživatelům s touto rolí vytvářet nové záznamy v postranním panelu záznamů.",
-"PERMISSION.MacroScript": "Používání skriptových maker a provádění skripty chování oblastí",
-"PERMISSION.MacroScriptHint": "Povolí uživatelům s touto rolí používat JavaScriptová makra, kterými přistupují k API a vykonávají skripty v oblastech scény.",
+"PERMISSION.MacroScript": "Používání skriptových maker a provádění skriptů chování oblastí",
+"PERMISSION.MacroScriptHint": "Povolí uživatelům s touto rolí používat makra v JavaScriptu, kterými přistupují k API a vykonávají skripty v oblastech scény.",
 "PERMISSION.ManualRolls": "Provádění manuálních hodů",
 "PERMISSION.ManualRollsHint": "Povolí uživatelům s touto rolí možnost ručně zadávat hody.",
 "PERMISSION.MessageWhisper": "Šeptání soukromých zpráv",
@@ -3252,15 +3252,15 @@
     "Access": "Přístup ke hře"
   },
   "ACTIONS": {
-    "Configure": "Nastavit",
-    "Docs": "Zobrazit dokumentace",
+    "Configure": "Nastavení aplikace",
+    "Docs": "Zobrazení dokumentace",
     "Invite": "Pozvat",
-    "Keybindings": "Nastavit zkratky",
-    "Logout": "Odhlásit se",
-    "ManageModules": "Spravovat moduly",
-    "Players": "Spravovat uživatele",
+    "Keybindings": "Nastavení zkratek",
+    "Logout": "Odhlášení",
+    "ManageModules": "Správa modulů",
+    "Players": "Správa uživatelů",
     "Support": "Podpora a problémy",
-    "Tours": "Spravovat průvodce",
+    "Tours": "Správa průvodců",
     "ViewModules": "Zobrazit aktivní moduly",
     "Wiki": "Stránky komunitní wiki"
   }
@@ -3370,7 +3370,7 @@
 "TEMPLATE.ConeTypeRound": "Zaoblený",
 "TEMPLATE.SubmitCreate": "Vytvořit měřící šablonu",
 "TEMPLATE.SubmitUpdate": "Aktualizovat měřící šablonu",
-"TEMPLATE.GridTemplatesSetting": "Mřížkové tvary šablon",
+"TEMPLATE.GridTemplatesSetting": "Používat mřížkové tvary šablon?",
 "TEMPLATE.GridTemplatesSettingHint": "Nastaví, zda má být oblast efektu šablon založena na mřížce namísto eukleidovského měření.",
 "TEMPLATE.TYPES": {
   "circle": "Kruh",
@@ -3384,7 +3384,7 @@
   "direction.label": "Směr",
   "angle.label": "Úhel",
   "distance.label": "Vzdálenost",
-  "borderColor.label": "Barva okraje",
+  "borderColor.label": "Barva ohraničení",
   "fillColor.label": "Barva výplně",
   "texture.label": "Textura výplně"
 },
@@ -3513,15 +3513,15 @@
   "sort.label": "Řazení",
   "movementAction.label": "Akce pohybu",
   "actorId.label": "Zastupovaný aktér",
-  "actorLink.label": "Propojit data aktéra",
-  "displayName.label": "Zobrazovaný název",
+  "actorLink.label": "Propojit data s aktérem?",
+  "displayName.label": "Zobrazení názevu",
   "appendNumber": {
-    "label": "Připojovat číselnou příponu",
-    "hint": "Připojí automaticky zvyšující se číslo ke jménu nepropojených tokenů. Např. \"Goblin 3\"."
+    "label": "Přidávat číslo k názvu?",
+    "hint": "Bude přidávat automaticky zvyšující se číslo k názvu nepropojených tokenů. Např. \"Goblin 3\"."
   },
   "prependAdjective": {
-    "label": "Přidávat náhodné přídavné jméno",
-    "hint": "Přidá náhodné přídavné jméno před jméno nepropojených tokenů. Např. \"Angry Goblin\"."
+    "label": "Přidávat náhodné přídavné jméno?",
+    "hint": "Bude přidávat náhodné přídavné jméno před název nepropojených tokenů. Např. \"Angry Goblin\"."
   },
   "occludable.radius": {
     "label": "Poloměr odhalení",
@@ -3529,7 +3529,7 @@
   },
   "disposition.label": "Postoj tokenu",
   "lockRotation": {
-    "label": "Zamknout otáčení ilustrace?",
+    "label": "Zákaz otáčení ilustrací?",
     "hint": "Zabrání tomu, aby se úhel otáčení tokenu vizuálně projevoval na plátně."
   },
   "texture": {
@@ -3542,7 +3542,7 @@
     "anchorY.label": "Y",
     "tint.label": "Barva tónování"
   },
-  "randomImg.label": "Náhodné zobrazení zástupných karet",
+  "randomImg.label": "Náhodně zobrazovat ilustrace divokých karet?",
   "shape": {
     "label": "Tvar",
     "hint": "Tvar tokenu."
@@ -3552,15 +3552,15 @@
     "colors": {
       "ring": {
         "label": "Barva prstence",
-        "hint": "Barva aplikovaná na okraj prstence."
+        "hint": "Barva aplikovaná na ohraničení prstence."
       },
       "background": {
         "label": "Barva pozadí prstence",
         "hint": "Barva aplikovaná na pozadí prstence."
       }
     },
-    "effects.label": "Efekty prstence",
-    "enabled.label": "Prstenec povolen",
+    "effects.label": "Efekty prstence?",
+    "enabled.label": "Povolení prstence?",
     "subject": {
       "scale": {
         "label": "Úprava škály subjektu",
@@ -3574,15 +3574,15 @@
   },
   "sight": {
     "enabled": {
-      "label": "Pohled povolen",
+      "label": "Povolení výhledu?",
       "hint": "Umožňuje tokenu vidět osvětlené prostory v jeho zorném poli."
     },
     "range": {
-      "label": "Dosah pohledu",
+      "label": "Dosah výhledu",
       "hint": "Vzdálenost, na kterou token vidí bez světla."
     },
     "angle": {
-      "label": "Úhel pohledu",
+      "label": "Úhel výhledu",
       "hint": "Úhel kužele zraku (výchozí je 360)."
     },
     "visionMode": {
@@ -3621,11 +3621,11 @@
       "hint": "Výběr ilustrace či videa, které se použije jako zvýrazňovač tahu tohoto tokenu."
     },
     "disposition": {
-      "label": "Zabarvení podle postoje",
+      "label": "Zabarvení podle postoje?",
       "hint": "Obarví zvýrazňovač tahu tohoto tokenu podle jeho postoje."
     }
   },
-  "displayBars.label": "Zobrazit pruhy",
+  "displayBars.label": "Zobrazení pruhů",
   "bar1.attribute.label": "Atribut 1. pruhu",
   "bar2.attribute.label": "Atribut 2. pruhu"
 },
@@ -3797,15 +3797,15 @@
 },
 "TOKEN.MOVEMENT": {
   "ACTIONS": {
-    "blink.label": "Teleportovat se (Bliknutí)",
-    "burrow.label": "Hrabat",
-    "climb.label": "Šplhat",
-    "crawl.label": "Plazit se",
-    "displace.label": "Teleportovat se (Přesun)",
-    "jump.label": "Skočit",
-    "fly.label": "Letět",
-    "swim.label": "Plavat",
-    "walk.label": "Jít"
+    "blink.label": "Teleportace (Bliknutí)",
+    "burrow.label": "Hrabání",
+    "climb.label": "Špl",
+    "crawl.label": "Plazení se",
+    "displace.label": "Teleportace (Přesun)",
+    "jump.label": "Skákání",
+    "fly.label": "Let",
+    "swim.label": "Plavání",
+    "walk.label": "Chůze"
   }
 },
 
@@ -3845,8 +3845,8 @@
 
 "DETECTION.LightPerception": "Vnímání světla",
 "DETECTION.BasicSight": "Vidění ve tmě",
-"DETECTION.SeeInvisibility": "Vidění neviditelnost",
-"DETECTION.SenseInvisibility": "Vycítění neviditelnost",
+"DETECTION.SeeInvisibility": "Vidění neviditelnosti",
+"DETECTION.SenseInvisibility": "Vycítění neviditelnosti",
 "DETECTION.FeelTremor": "Cítění otřesů",
 "DETECTION.SenseAll": "Cítění všeho",
 "DETECTION.SeeAll": "Vidění všeho",
@@ -3952,7 +3952,7 @@
   "c.label": "Souřadnice zdi",
   "light.label": "Světlo",
   "move.label": "Pohyb",
-  "sight.label": "Pohled",
+  "sight.label": "Výhled",
   "sound.label": "Zvuk",
   "dir.label": "Směr omezení",
   "door.label": "Typ dveří",
