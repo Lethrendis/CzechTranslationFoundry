@@ -1834,7 +1834,7 @@
 "SCENE.GridResizeHint": "Pro úpravu velikosti mřížky použij ALT+kolečko myši nebo ALT+šipku nahoru/dolů.",
 "SCENE.GridPosition": "Posun ilustrace pozadí",
 "SCENE.GridPositionHint": "K posunu ilustrace pozadí lze používat šipky.",
-"SCENE.GridScale": "Škála mřížky",
+"SCENE.GridScale": "Měřítko mřížky",
 "SCENE.GridReset": "Vrátit změny",
 "SCENE.InitialView": "Počáteční pohled kamery",
 "SCENE.InitialViewButton": "Vyfotit aktuální pohled kamery",
@@ -2119,7 +2119,7 @@
 "SETTINGS.FPSMeterN": "Zobrazovat měřič snímků za sekundu?",
 "SETTINGS.FPSMeterL": "Zobrazí v pravém dolním rohu obrazovky měřič snímků za sekundu, který hlásí výkon při vykreslování plátna ve snímcích za sekundu.",
 "SETTINGS.ResolutionScaleN": "Používat měřítko rozlišení pixelů?",
-"SETTINGS.ResolutionScaleL": "Škála rozlišení herního plátna podle detekovaného poměru pixelů prohlížeče. Pro zobrazovací zařízení s vysokou hustotou pixelů (jako jsou retina displeje) to zvýší vykreslené rozlišení plátna na úkor výkonu aplikace. Škála rozlišení je také ovlivněna úrovní přiblížení prohlížeče a nastavením zobrazení operačního systému. V takových případech toto nastavení zvýší či sníží efektivní rozlišení plátna v závislosti na míře přiblížení. Odškrtnutí tohoto nastavení může u displejů s vysokou hustotou pixelů zlepšit výkon na úkor vizuální kvality.",
+"SETTINGS.ResolutionScaleL": "Měřítko rozlišení herního plátna podle detekovaného poměru pixelů prohlížeče. Pro zobrazovací zařízení s vysokou hustotou pixelů (jako jsou retina displeje) to zvýší vykreslené rozlišení plátna na úkor výkonu aplikace. Měřítko rozlišení je také ovlivněna úrovní přiblížení prohlížeče a nastavením zobrazení operačního systému. V takových případech toto nastavení zvýší či sníží efektivní rozlišení plátna v závislosti na míře přiblížení. Odškrtnutí tohoto nastavení může u displejů s vysokou hustotou pixelů zlepšit výkon na úkor vizuální kvality.",
 "SETTINGS.LangN": "Jazykové preference",
 "SETTINGS.LangL": "Změní jazyk používaný ve Foundry VTT.",
 "SETTINGS.LClickReleaseN": "Uvolňovat objekty levým kliknutím?",
@@ -2210,8 +2210,8 @@
   },
   "FIELDS": {
     "uiScale": {
-      "label": "Škála rozhraní",
-      "hint": "Použije globální škálu celého uživatelského rozhraní, aby bylo větší či menší."
+      "label": "Měřítko rozhraní",
+      "hint": "Nastaví měřítko celého uživatelského rozhraní, aby bylo větší či menší."
     },
     "fontScale": {
       "label": "Velikost písma",
@@ -3392,7 +3392,7 @@
 "TILE.ConfigTitle": "Nastavení dlaždice",
 "TILE.Dimensions": "Rozměry",
 "TILE.Scale": "Měřítko dlaždice",
-"TILE.ScaleHint": "Upraví škálu ilustrace na ose X či Y. Ilustrace může přesahovat své ohraničení. Záporné hodnoty ilustraci převrátí.",
+"TILE.ScaleHint": "Upraví měřítko ilustrace na ose X či Y. Ilustrace může přesahovat své ohraničení. Záporné hodnoty ilustraci převrátí.",
 "TILE.OcclusionModeNone": "Žádný (vždy viditelná)",
 "TILE.OcclusionModeFade": "Zeslabení (celá dlaždice)",
 "TILE.OcclusionModeRoof": "Střecha (blokuje vidění a světlo)",
@@ -3563,7 +3563,7 @@
     "enabled.label": "Povolení prstence?",
     "subject": {
       "scale": {
-        "label": "Úprava škály subjektu",
+        "label": "Úprava měřítka subjektu",
         "hint": "Upraví relativní velikost textury subjektu vůči prstenci. Vyšší hodnota zvětší texturu subjektu oproti prstenci. Nižší hodnoty zmenší texturu, pokud je příliš výrazná."
       },
       "texture": {
