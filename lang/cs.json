@@ -484,7 +484,7 @@
 "CHAT.RollPrivate": "Soukromý hod GM",
 "CHAT.RollSelf": "Osobní hod",
 "CHAT.RollTables": "Házecí tabulky",
-"CHAT.JumpToBottom": "Přejít na spodek",
+"CHAT.JumpToBottom": "Přejít dolů",
 "CHAT.PrivateRollContent": "Uživatel {user} soukromě hodil kostkami",
 "CHAT.UnknownUser": "Neznámý uživatel",
 
@@ -2050,7 +2050,7 @@
       "hint": "Určuje umístění, kam se ukládají uživatelská data včetně světů, systémů a modulů."
     },
     "telemetry": {
-      "label": "Povolení sdílení údajů o používání",
+      "label": "Povolit sdílení údajů o používání?",
       "hint": "Povolí sdílení údajů o používání, které nám pomáhají zlepšovat Foundry VTT. Sběr údajů je popsán v našich <a href=\"https://foundryvtt.com/article/privacy-policy/\" target=\"_blank\">zásadách ochrany osobních údajů</a>, neobsahuje žádné osobní identifikační údaje a není sdílen ani s třetími stranami. Pomáhá nám zjistit například „které verze softwaru se nejvíce používají“, „které herní systémy jsou nejhranější“ a „které verze modulů jsou často instalovány“."
     },
     "cssTheme": {
@@ -2202,8 +2202,8 @@
 "SETTINGS.GridDiagonalsAlternating2": "Alternující (2/1/2)",
 "SETTINGS.GridDiagonalsIllegal": "Nezákonné (∞)",
 
-"SETTINGS.UniversalKeybindingsN": "Univerzální klávesové zkratky (experimentální)",
-"SETTINGS.UniversalKeybindingsL": "Porovnává zkratky podle napsaného znaku namísto fyzické polohy klávesy. Zlepšuje podporu pro rozložení AZERTY, QWERTZ, Kana a další. Je toe experimentální funkce. Vyžaduje restart.",
+"SETTINGS.UniversalKeybindingsN": "Používat univerzální zkratky?",
+"SETTINGS.UniversalKeybindingsL": "Porovnává klávesové zkratky podle napsaného znaku namísto fyzické polohy klávesy. Zlepšuje podporu pro rozložení AZERTY, QWERTZ, Kana a další. Je to experimentální funkce. Vyžaduje restart.",
 
 "SETTINGS.UI": {
   "MENU": {
@@ -2405,7 +2405,7 @@
   "PackageUpdateCoreInsufficient": "Je k dispozici aktualizace, ale k fungování vyžaduje starší verzi jádrového softwaru {vmax}.",
   "PackageDeleteTitle": "{type} odstranit: {title}",
   "PackageDeleteConfirm": "{type} \"{title}\" má být opravdu odstraněn?",
-  "WorldDeleteConfirmCode": "Pokud cheš pokračovat, přesně opiš tento kód do spodního pole: ",
+  "WorldDeleteConfirmCode": "Pokud chceš pokračovat, přesně opiš tento kód do spodního pole: ",
   "WorldDeleteConfirmWarning": "Tímto trvale smažeš svůj svět a jeho obsah a nepůjde to vrátit zpět. Opravdu to chceš udělat?",
   "PackageDeletePersistent": "Tento balíček má uložené trvalé soubory, často používané pro věci jako nastavení či uložená data. Pokud budeš pokračovat, budou tato data smazána.",
   "PackageDeleteNoUndo": "<strong>Varování:</strong> Tuto operaci nelze vrátit zpět.",
