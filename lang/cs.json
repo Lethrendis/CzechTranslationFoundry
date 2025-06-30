@@ -488,24 +488,24 @@
 "CHAT.PrivateRollContent": "Uživatel {user} soukromě hodil kostkami",
 "CHAT.UnknownUser": "Neznámý uživatel",
 
-"COMBAT.NavLabel": "Navigace střetnutí",
+"COMBAT.NavLabel": "Navigace boje",
 "COMBAT.Begin": "Začít boj",
-"COMBAT.Create": "Vytvořit střetnutí",
-"COMBAT.Delete": "Odstranit střetnutí",
-"COMBAT.Encounter": "Střetnutí",
-"COMBAT.EncounterPrevious": "Aktivovat předchozí střetnutí",
-"COMBAT.EncounterNext": "Aktivovat následující střetnutí",
+"COMBAT.Create": "Vytvořit boj",
+"COMBAT.Delete": "Odstranit boj",
+"COMBAT.Encounter": "Boj",
+"COMBAT.EncounterPrevious": "Aktivovat předchozí boj",
+"COMBAT.EncounterNext": "Aktivovat následující boj",
 "COMBAT.End": "Ukončit boj",
 "COMBAT.InitiativeRoll": "Hod na iniciativu",
 "COMBAT.InitiativeReset": "Resetovat iniciativu",
 "COMBAT.ClearMovementHistories": "Vyčistit historii pohybu",
 "COMBAT.InitiativeScore": "Skóre iniciativy",
-"COMBAT.EndTitle": "Ukončit bojové střetnutí?",
-"COMBAT.EndConfirmation": "Ukončit toto bojové střetnutí a přestat sledovat tahy?",
+"COMBAT.EndTitle": "Ukončit boj?",
+"COMBAT.EndConfirmation": "Ukončit tento boj a přestat sledovat tahy?",
 "COMBAT.Linked": "Propojeno se scénou, klikni pro odpojení",
-"COMBAT.None": "Žádné střetnutí",
-"COMBAT.NoneActive": "V aktuálně zobrazené scéně není žádné bojové střetnutí.",
-"COMBAT.NoneRemaining": "V tomto střetnutí nezůstali žádní neporažení bojovníci.",
+"COMBAT.None": "Žádný boj",
+"COMBAT.NoneActive": "V aktuálně zobrazené scéně neprobíhá žádný boj.",
+"COMBAT.NoneRemaining": "V tomto boji nezůstali žádní neporažení bojovníci.",
 "COMBAT.NotStarted": "Nezahájeno",
 "COMBAT.PanToCombatant": "Přejít na účastníka boje",
 "COMBAT.PingCombatant": "Pingnout účastníka boje",
@@ -885,7 +885,8 @@
 },
 
 "DICE": {
-  "ErrorNonNumeric": "Vzorec hodu kostkou {formula} nevedl k číselnému výsledku.",
+  "ErrorNonNumeric": "Vzorec hodu kostkou \"{formula}\" nevedl k číselnému výsledku.",
+  "ErrorNotParsable": "Vzorec hodu kostkami \"{formula}\" není řetězec.",
   "ManualRoll": "Ruční hod",
   "RollResolution": "Vyhodnocení hodu",
   "SubmitRoll": "Odeslat hod",
@@ -1062,8 +1063,8 @@
 "EFFECT.MODE_OVERRIDE": "Přepsání",
 "EFFECT.TransferLegacy": "Přenést efekt na aktéra?",
 "EFFECT.TransferHintLegacy": "Pokud je zaškrtnuto, pak bude tento efekt zkopírován na aktéra, když bude původní položka tohoto efektu vytvořena na aktérovi, a bude odstraněn, pokud by byla tato položka odstraněna.",
-"EFFECT.DurationTurns": "Délka trvání efektu (kola)",
-"EFFECT.StartTurns": "Počáteční kolo efektu",
+"EFFECT.DurationTurns": "Trvání efektu (boj)",
+"EFFECT.StartTurns": "Počátek efektu",
 "EFFECT.ChangeKey": "Klíč atributu",
 "EFFECT.ChangeMode": "Režim změny",
 "EFFECT.ChangeValue": "Hodnota",
@@ -1088,7 +1089,7 @@
     "startTime.label": "Začátek efektu",
     "startRound.label": "Kolo",
     "startTurn.label": "Tah",
-    "combat.label": "Bojové střetnutí"
+    "combat.label": "Boj"
   }
 },
 "EFFECT.TABS": {
@@ -1487,9 +1488,9 @@
   "ExecuteMacro": "Spustit makro z pozice {number} na liště",
   "SwapMacroPage": "Přepnout na stránku lišty {page}",
   "MustBeArray": "Musí předat pole hodnot.",
-  "ErrorProtectedKey": "Jako přiřazení nelze nastavit chráněnou klávesu „{key}“.",
-  "ErrorIllegalModifier": "Zadaný modifikátor „{key}“ není platnou hodnotou v KeyboardManager.MODIFIER_KEYS.",
-  "ErrorReservedModifier": "Nelze nastavit „{key}“ jako přiřazení, protože je rezervována jako modifikátor pro tuto akci.",
+  "ErrorProtectedKey": "Chráněnou klávesu „{key}“ nelze přiřadit.",
+  "ErrorIllegalModifier": "Zadaný modifikátor „{key}“ není platnou hodnotou KeyboardManager.MODIFIER_KEYS.",
+  "ErrorReservedModifier": "Klávesu „{key}“ nelze přiřadit, protože je rezervována jako modifikátor pro tuto akci.",
   "FocusChat": "Zaměřit se na chat",
   "ACTIONS": {
     "AddBinding": "Přidat přiřazení",
@@ -1540,7 +1541,7 @@
   },
   "contrast": {
     "label": "Kontrast",
-    "hint": "Upraví kontrast povrchů osvětlených tímto zdrojem světla. Výchozí hodnotou pro standardní zdroj světla je 0."
+    "hint": "Upraví kontrast povrchů osvětlených tímto zdrojem světla. Výchozí hodnotou standardního zdroje světla je 0."
   },
   "dim": {
     "label": "Tlumené"
@@ -1550,7 +1551,7 @@
   },
   "luminosity": {
     "label": "Svítivost",
-    "hint": "Upraví jas tohoto zdroje světla. Svítivější světla jsou méně utlumená tmou. Výchozí hodnotou pro standardní zdroj světla je 0.5."
+    "hint": "Upraví jas tohoto zdroje světla. Svítivější světla jsou méně utlumená tmou. Výchozí hodnotou standardního zdroje světla je 0.5."
   },
   "negative": {
     "label": "Zdroj tmy",
@@ -1562,11 +1563,11 @@
   },
   "saturation": {
     "label": "Saturace",
-    "hint": "Upraví saturaci povrchů osvětlených tímto zdrojem světla. Výchozí hodnotou pro standardní zdroj světla je 0."
+    "hint": "Upraví saturaci povrchů osvětlených tímto zdrojem světla. Výchozí hodnotou standardního zdroje světla je 0."
   },
   "shadows": {
     "label": "Stíny",
-    "hint": "Zvýrazní či upraví intenzitu tmavých barev osvětlených tímto zdrojem světla. Výchozí hodnotou pro standardní zdroj světla je 0."
+    "hint": "Zvýrazní či upraví intenzitu tmavých barev osvětlených tímto zdrojem světla. Výchozí hodnotou standardního zdroje světla je 0."
   },
   "darkness": {
     "label": "Rozsah aktivace tmy",
@@ -2023,10 +2024,15 @@
   },
   "SSLCert": "SSL certifikát",
   "Telemetry": {
-    "request1": "Pokud udělíš souhlas, bude Foundry VTT sdílet malé množství anonymních údajů o používání se stránkou foundryvtt.com. Pomáhá ná to lépe porozumět tomu, jak je Foundry VTT používáno, a zlepšovat software.",
+    "request1": "Pokud udělíš souhlas, bude Foundry VTT sdílet malé množství anonymních údajů o používání se stránkou foundryvtt.com Pomáhá nám to lépe porozumět tomu, jak je Foundry VTT používáno, a zlepšovat software.",
     "request2": "Tato výzva se zobrazí pouze jednou. Svá nastavení sdílení dat můžeš kdykoli změnit v nabídce Nastavení aplikace kliknutím na ikonu <i class=\"fas fa-cogs\"></i> v pravém horním rohu.",
     "yes": "Povolit sdílení",
     "no": "Odmítnout sdílení"
+      },
+  "ChangePassword": {
+    "label": "Změna hesla",
+    "hint": "Zadej stávající heslo administrátora.",
+    "title": "Zadání stávajícího hesla"
   },
   "SECTIONS": {
     "FVTTConfig": "Nastavení Foundry VTT",
@@ -2195,6 +2201,9 @@
 "SETTINGS.GridDiagonalsAlternating1": "Alternující (1/2/1)",
 "SETTINGS.GridDiagonalsAlternating2": "Alternující (2/1/2)",
 "SETTINGS.GridDiagonalsIllegal": "Nezákonné (∞)",
+
+"SETTINGS.UniversalKeybindingsN": "Univerzální klávesové zkratky (experimentální)",
+"SETTINGS.UniversalKeybindingsL": "Porovnává zkratky podle napsaného znaku namísto fyzické polohy klávesy. Zlepšuje podporu pro rozložení AZERTY, QWERTZ, Kana a další. Je toe experimentální funkce. Vyžaduje restart.",
 
 "SETTINGS.UI": {
   "MENU": {
@@ -2444,11 +2453,15 @@
   "UpdateWarningWillDisable": "Tato aktualizace je novou hlavní verzí softwaru Foundry VTT. Instalace této aktualizace vyžaduje, aby byly zakázány některé nainstalované moduly, které ještě nemusí být kompatibilní.",
   "UpdateButtonDownload": "Stáhnout aktualizaci {display}",
   "UpdateInfoAvailable": "K dispozici je aktualizace Foundry VTT verze {display}!",
-  "UpdateNoUpdateMode": "Nemáš povoleno aktualizovat tuto instanci Foundry VTT, protože byla spuštěna v režimu --žádné aktualizace.",
   "UpdateNotAvailable": "Na požadovaném kanálu aktualizací není aktuálně k dispozici žádná aktualizace softwaru.",
   "UpdateNoArchive": "Pro instalaci neexistuje žádný archiv aktualizací.",
   "UpdateLicenseInvalid": "Tvůj licenční klíč pro Foundry VTT není platný.",
   "UpdatedPackages": "Log aktualizace balíčků",
+    "NoUpdateMode": {
+    "Label": "Zákaz aktualizací",
+    "Hint": "Nemáš povoleno tuto instanci Foundry VTT aktualizovat, protože byla spuštěna v režimu --noupdate."
+  },
+
   "Package": "Balíček",
   "VersionChange": "Změna verze",
 
@@ -2515,7 +2528,7 @@
   "Manage": "Spravovat",
   "ManageBackups": "Spravovat zálohy",
   "ManagePackage": "Zálohy {package}",
-  "LargePackageWarning": "Vybraný balíček se zdá být docela velký. Může zůstat po nějakou dobu na 0 % , než bude moci proces zálohování začít. Prosíme o trpělivost.",
+  "LargePackageWarning": "Vybraný balíček se zdá být docela velký. Může zůstat po nějakou dobu na 0 %, než proces zálohování začne. Prosíme o trpělivost.",
   "Loading": "Načítání záloh",
   "Categories": "Kategorie záloh",
   "Restore": "Obnovit",
@@ -2596,7 +2609,7 @@
     "FullList": "Zobrazit <a href=\"{url}\" target=\"_blank\">úplný seznam</a> poznámek k verzi.",
     "BeginDownload": "Spustit stahování",
     "NewGenerationHint": "Před aktualizací zvaž vytvoření snímku všech nainstalovaných balíčků pro případ, že budeš chtít provést návrat zpět.",
-    "PreviewCompatibilityHint": "Pomocí tlačítka ´Náhled kompatibility´ níže můžeš ověřit, zda jsou všechny tvé světy, herní systémy a moduly ve Foundry VTT verze {version} podporovány."
+    "PreviewCompatibilityHint": "Pomocí tlačítka ´Náhled kompatibility´ níže můžeš ověřit, zda jsou ve Foundry VTT verze {version} podporovány všechny tvé světy, herní systémy a moduly."
   }
 },
 
