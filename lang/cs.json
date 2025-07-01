@@ -3527,7 +3527,7 @@
   "movementAction.label": "Akce pohybu",
   "actorId.label": "Zastupovaný aktér",
   "actorLink.label": "Propojit data s aktérem?",
-  "displayName.label": "Zobrazení názevu",
+  "displayName.label": "Zobrazení názvu",
   "appendNumber": {
     "label": "Přidávat číslo k názvu?",
     "hint": "Bude přidávat automaticky zvyšující se číslo k názvu nepropojených tokenů. Např. \"Goblin 3\"."
