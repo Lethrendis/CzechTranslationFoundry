@@ -1075,7 +1075,7 @@
   "img.label": "Ikona efektu",
   "tint.label": "Barva ikony",
   "description.label": "Popis efektu",
-  "disabled.label": "Efekt pozastaven",
+  "disabled.label": "Pozastavit efekt?",
   "origin.label": "Původ efektu",
   "transfer": {
     "label": "Aplikovat efekt na aktéra?",
@@ -1326,7 +1326,7 @@
 },
 
 "GAME.Paused": "Hra pozastavena",
-"GAME.PausedWarning": "Dokud je hra pozastavena, tuto akci nelze provést.",
+"GAME.PausedWarning": "Dokud je hra pozastavena, nelze tuto akci provést.",
 "GAME.ReturnSetup": "Návrat do nastavení",
 "GAME.ReturnSetupActiveUser": "V tomto světě je právě aktivní jeden další uživatel a bude odpojen. Chceš pokračovat?",
 "GAME.ReturnSetupActiveUsers": "V tomto světě je právě aktivních {number} dalších uživatelů a budou odpojeni. Chceš pokračovat?",
