@@ -2853,7 +2853,7 @@
   "HintFolder": "Nastav přístup pro všechny dokumenty v této složce. Změny budou aplikovány na všechny obsažené dokumenty kromě obsahu podsložek.",
   "HintDocument": "Nastav přístup k tomuto konkrétnímu dokumentu. Každému uživateli lze přiřadit jinou úroveň přístupu.",
   "Configure": "Nastavit vlastnictví",
-  "ShowGM": "Zobrazit uživatele GM",
+  "ShowGM": "Zobrazit uživatele GM?",
   "Legend": "Vlastnictví",
   "Save": "Uložit změny"
 },
