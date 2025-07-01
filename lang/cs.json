@@ -690,7 +690,7 @@
   "DrawingFree": "Kreslení od ruky",
   "DrawingText": "Text",
   "DrawingClear": "Vyčistit kresby",
-  "DrawingConfig": "Nastavit kresbu",
+  "DrawingConfig": "Nastavení kreslení",
   "DrawingRole": "Přepnout informační kresby",
   "GroupWall": "Ovládání zdí",
   "WallDraw": "Kreslit zdi",
@@ -1011,7 +1011,7 @@
   }
 },
 
-"DRAWING.ConfigDefaultTitle": "Výchozí nastavení kresby",
+"DRAWING.ConfigDefaultTitle": "Výchozí nastavení kreslení",
 "DRAWING.SubmitDefault": "Nastavit výchozí",
 "DRAWING.SubmitCreate": "Vytvořit kresbu",
 "DRAWING.SubmitUpdate": "Aktualizovat kresbu",
@@ -1034,7 +1034,7 @@
 "DRAWING.FillColor": "Barva výplně",
 "DRAWING.FillOpacity": "Průhlednost výplně",
 "DRAWING.FillTexture": "Textura výplně",
-"DRAWING.TextLabel": "Textový štítek",
+"DRAWING.TextLabel": "Štítek textu",
 "DRAWING.FontFamily": "Písmo",
 "DRAWING.FontSize": "Velikost písma",
 "DRAWING.TextColor": "Barva textu",
