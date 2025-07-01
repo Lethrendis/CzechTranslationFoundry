@@ -1,5 +1,5 @@
 
-# CzechCore13.346
+# CzechCore
 
 Czech translation of Foundry VTT version 13.346.
 
