@@ -286,7 +286,7 @@
 "APPLICATION": {
   "TOOLS": {
     "ControlsMenu": "Ovládací prvky aplikace",
-    "ToggleControls": "Přepnout ovládací prvky",
+    "ToggleControls": "Přepínač ovládacích prvků",
     "Close": "Zavřít okno"
   },
   "IMAGE_POPOUT.AltText": "Zobrazená ilustrace: subjekt není znám."
@@ -417,7 +417,7 @@
     "ResetDelete": "Resetovat a odstranit",
     "Save": "Uložit",
     "Shuffle": "Zamíchat",
-    "ToggleSortMode": "Přepnout režim řazení"
+    "ToggleSortMode": "Přepínač režimu řazení"
   },
   "TABS": {
     "details": "Podrobnosti",
@@ -522,7 +522,7 @@
 "COMBAT.SidebarTitle": "Sledovač boje",
 "COMBAT.Sounds.Epic": "Epické",
 "COMBAT.Sounds.MC": "Komentátor boje",
-"COMBAT.ToggleVis": "Přepnout viditelnost",
+"COMBAT.ToggleVis": "Přepínač viditelnosti",
 "COMBAT.ToggleDead": "Označit jako poraženého",
 "COMBAT.Turn": "Tah",
 "COMBAT.Turns": "Tahy",
@@ -633,13 +633,13 @@
 "COMPENDIUM.Type": "Typ dokumentu",
 "COMPENDIUM.TypeHint": "Každý balíček kompendia obsahuje specifický typ dokumentu.",
 "COMPENDIUM.ToggleLocked": {
-  "Option": "Přepnout zámek úprav",
-  "Title": "Přepnout zámek úprav: {compendium}",
+  "Option": "Přepínač zámku úprav",
+  "Title": "Přepínač zámku úprav: {compendium}",
   "Unlock": "Odemknout",
-  "Warning": "Pokusil/a ses odemknout ke úpravám kompendium, které nepatří tomuto světu. Jakékoli změny, které v tomto balíčku kompendia provedeš, mohou být ztraceny, pokud bude systém či modul, který jej vlastní, aktualizován. Možná by bylo lepší kompendium duplikovat do svého světa. Jak si přeješ pokračovat?"
+  "Warning": "Pokusil/a ses odemknout úpravy kompendia, které nepatří tomuto světu. Jakékoli změny, které v tomto balíčku kompendia provedeš, mohou být ztraceny, pokud bude systém či modul, který jej vlastní, aktualizován. Možná by bylo lepší kompendium duplikovat do svého světa. Jak si přeješ pokračovat?"
 },
-"COMPENDIUM.CannotViewWarning": "Nemáš dostatečné oprávnění k zobrazení tohoto balíčku kompendia.",
-"COMPENDIUM.OwnershipInheritBelow": "Dědit z nižší úrovně",
+"COMPENDIUM.CannotViewWarning": "Nemáš dostatečné oprávnění k zobrazení tohoto balíčku kompendia.",
+"COMPENDIUM.OwnershipInheritBelow": "Dědit z nižší úrovně",
 "COMPENDIUM.OwnershipReset": "Resetovat výchozí",
 "COMPENDIUM.ART": {
   "CONFIG": {
@@ -725,8 +725,8 @@
   "LightDay": "Přechod na denní světlo",
   "MakeDayH": "Nastavit den",
   "MakeDayP": "Plynule změní úroveň tmy scény na 0.",
-  "AutoLightToggleH": "Automatické přepínání světel",
-  "AutoLightToggleP": "Světla lze nastavit tak, aby se zapínala a vypínala podle úrovně tmy.",
+  "AutoLightToggleH": "Automatický přepínač světel",
+  "AutoLightToggleP": "Nastaví světla tak, aby se zapínala a vypínala podle úrovně tmy.",
   "LightNight": "Přechod do tmy",
   "MakeNightH": "Nastavit noc",
   "MakeNightP": "Plynule změní úroveň tmy scény na 1.",
@@ -739,7 +739,7 @@
   "SoundClear": "Vyčistit zvuky",
   "GroupNotes": "Poznámky",
   "NoteSelect": "Vybrat poznámky",
-  "NoteToggle": "Zobrazit/skrýt poznámky",
+  "NoteToggle": "Přepínač zobrazení poznámek",
   "NoteClear": "Vyčistit poznámky",
   "RegionShape": "Přidat tvar k vybrané oblasti. Pokud není vybraná žádná oblast, vytvoří se nová. Překrývající se tvary v jedné oblasti se spojí. Všechny tvary v jedné oblasti sdílí stejnou barvu.",
   "GroupRegion": "Ovládání oblastí",
@@ -857,7 +857,7 @@
   "CommonHide": "Skrýt",
   "CommonDelete": "Odstranit",
   "CommonRotate": "Otočit",
-  "CommonToggleHUD": "Přepnout HUD",
+  "CommonToggleHUD": "Přepínač HUD",
   "CommonDraw": "Kreslit",
   "CommonDrawProportional": "Kreslit proporčně",
   "CommonPlace": "Umístit",
@@ -1260,7 +1260,7 @@
       "Label": "Název složky",
       "Placeholder": "moje-nova-slozka"
   },
-  "TogglePrivacy": "Přepnout soukromý režim",
+  "TogglePrivacy": "Přepínač soukromého režimu",
   "DisplayMode": "Zobrazení",
   "DisplayModeList": "Zobrazit jako seznam",
   "DisplayModeTiles": "Zobrazit jako dlaždice",
@@ -1365,7 +1365,7 @@
 "HUD.ToggleTargetState": "Přepínač zacílení",
 "HUD.ToggleCombatState": "Přepínač boje",
 "HUD.ToggleVis": "Přepínač viditelnosti",
-"HUD.ToggleLock": "Přepnout uzamčení",
+"HUD.ToggleLock": "Přepínač zámku",
 "HUD.ToFront": "Posunout do popředí",
 "HUD.ToBack": "Posunout do pozadí",
 "HUD.TilePlay": "Přehrát video dlaždice",
@@ -1458,7 +1458,7 @@
   "Restricted": "Pouze pro gamemastera",
   "ReservedModifiers": "Speciální modifikátory: {modifiers}",
   "HowToEdit": "Pro úpravu použij {icon}, nebo dvakrát klikni na přiřazení.",
-  "CycleView": "Přepnutí pohledu na plátno, nebo na akci pohybu",
+  "CycleView": "Přepínač pohledu na plátno, nebo na akci pohybu",
   "Dismiss": "Zavřít nabídku / Zavřít všechna okna",
   "Pause": "Pozastavit hru",
   "Delete": "Odstranit objekty",
@@ -1472,7 +1472,7 @@
   "Ruler": "Zobrazit měřicí pravítko",
   "SendToBack": "Přesunout objekty do pozadí",
   "BringToFront": "Přesunout objekty do popředí",
-  "ToggleCharacterSheet": "Zobrazit/skryt deník postavy",
+  "ToggleCharacterSheet": "Přepínač zobrazení deníku postavy",
   "PTTKey": "Push-to-Talk / Push-to-Mute",
   "PanUp": "Posunout nahoru",
   "PanLeft": "Posunout doleva",
@@ -1847,7 +1847,7 @@
 "SCENE.Preload": "Přednačíst scénu",
 "SCENE.View": "Zobrazit scénu",
 "SCENE.ShiftBG": "Posunout pozadí",
-"SCENE.ToggleNav": "Přepnout do navigace",
+"SCENE.ToggleNav": "Připnout do navigace",
 "SCENE.Ambience": {
   "Base": "Základní atmosféra",
   "Dark": "Temná atmosféra",
@@ -3343,7 +3343,7 @@
     "ResetResults": "Resetovat výsledky",
     "CreateResult": "Přidat nový výsledek",
     "DeleteResult": "Odstranit výsledek",
-    "ToggleDrawn": "Přepnout stav losování",
+    "ToggleDrawn": "Přepínač stavu losování",
     "Submit": "Aktualizovat házecí tabulku"
   },
   "TABS": {
@@ -3848,7 +3848,7 @@
     "pauseGame": "Pozastavit hru",
     "suppressWeather": "Potlačit počasí",
     "teleportToken": "Teleportovat token",
-    "toggleBehavior": "Přepnout chování"
+    "toggleBehavior": "Přepínač chování"
   },
   "TableResult": {
     "document": "Dokument",
@@ -4067,7 +4067,7 @@
   "ModeVideoOnly": "Pouze video",
   "ModeAudioVideo": "Zvuk a video zapnuty",
   "NavLabel": "Ovládání zvuku/videa uživatele",
-  "TooltipToggleVideo": "Přepnout video",
+  "TooltipToggleVideo": "Přepínač videa",
   "TooltipConfigure": "Otevřít nastavení",
   "TooltipDock": "Připnout k okraji",
   "TooltipPopout": "Otevřít v okně",
