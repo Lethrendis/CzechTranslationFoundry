@@ -3440,12 +3440,12 @@
   },
   "restrictions": {
     "light": {
-      "label": "Omezuje světlo",
-      "hint": "Jsou světelné zdroje blokovány na základě své výšky vůči výšce této dlaždice?"
+      "label": "Omezovat světlo?",
+      "hint": "Po zaškrtnutí budou světelné zdroje blokovány na základě své výšky vůči výšce této dlaždice."
     },
     "weather": {
-      "label": "Omezuje počasí",
-      "hint": "Jsou efekty počasí blokovány na základě své výšky vůči výšce této dlaždice?"
+      "label": "Omezovat počasí?",
+      "hint": "Po zaškrtnutí budou efekty počasí blokovány na základě své výšky vůči výšce této dlaždice."
     }
   },
   "video": {
