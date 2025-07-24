@@ -3435,8 +3435,8 @@
   },
   "alpha.label": "Průhlednost dlaždice",
   "occlusion": {
-    "mode.label": "Režim zakrytí",
-    "alpha.label": "Průhlednost zakrytí"
+    "mode.label": "Režim mizení",
+    "alpha.label": "Průhlednost mizení"
   },
   "restrictions": {
     "light": {
