@@ -975,8 +975,8 @@
   "Scenes": "Scény",
   "Setting": "Nastavení",
   "Settings": "Nastavení",
-  "RollTable": "Tabulka hodu",
-  "RollTables": "Tabulky hodů",
+  "RollTable": "Házecí tabulka",
+  "RollTables": "Házecí tabulky",
   "Region": "Oblast",
   "Regions": "Oblasti",
   "RegionBehavior": "Chování oblasti",
@@ -2830,7 +2830,7 @@
 "FOLDER.CreateTable": "Vytvořit házecí tabulku",
 "FOLDER.CreateTableConfirm": {
   "Title": "Vytvořit házecí tabulku: {folder}",
-  "Question": "Chceš z obsahu této složky vytvořit novou házecí tabulku, kde budou položky výsledky tabulky?"
+  "Question": "Chceš z obsahu této složky vytvořit novou házecí tabulku, kde se z položek stanou výsledky tabulky?"
 },
 "FOLDER.InvalidDocumentType": "Neplatný typ dokumentu \"{type}\" zadaný pro tuto složku.",
 "FOLDER.ExceededMaxDepth": "Nelze vnořit složky více než {depth} úrovně hluboko.",
