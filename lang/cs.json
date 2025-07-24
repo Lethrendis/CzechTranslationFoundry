@@ -1436,7 +1436,7 @@
 "JOURNALENTRYPAGE.ShowImageOnly": "Zobrazit pouze ilustraci",
 "JOURNALENTRYPAGE.ShowImageTitle": "Zobrazit titulek ilustrace",
 "JOURNALENTRYPAGE.ShowImageCaption": "Zobrazit popis ilustrace",
-"JOURNALENTRYPAGE.ShowTitle": "Zobrazit název stránky",
+"JOURNALENTRYPAGE.ShowTitle": "Zobrazit název stránky?",
 "JOURNALENTRYPAGE.HeadingLevel": "Úroveň nadpisu",
 "JOURNALENTRYPAGE.Category": "Kategorie stránky",
 "JOURNALENTRYPAGE.Level": "Úroveň {level}",
