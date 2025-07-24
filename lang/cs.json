@@ -1173,7 +1173,7 @@
 
 "EDITOR.Format": "Formát",
 "EDITOR.Font": "Písmo",
-"EDITOR.Inline": "Formát písma",
+"EDITOR.Inline": "Text",
 "EDITOR.Block": "Blok textu",
 "EDITOR.Headings": "Nadpisy",
 "EDITOR.Heading": "Nadpis {level}",
