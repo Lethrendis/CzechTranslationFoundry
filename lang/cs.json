@@ -3965,15 +3965,15 @@
   "c.label": "Souřadnice zdi",
   "light.label": "Světlo",
   "move.label": "Pohyb",
-  "sight.label": "Výhled",
+  "sight.label": "Vnímání",
   "sound.label": "Zvuk",
   "dir.label": "Směr omezení",
   "door.label": "Typ dveří",
   "ds.label": "Stav dveří",
   "doorSound.label": "Zvuk dveří",
   "threshold.attenuation": {
-    "hint": "Vzdálenost, do jaké je možné vnímat skrz tuto zeď, se adaptivně mění podle toho, jak blízko se pozorovatel nachází a jaký je nastavený práh. Funguje pouze tehdy, pokud je definován práh.",
-    "label": "Tlumit podle vzdálenosti k prahu?"
+    "hint": "Vzdálenost, do jaké je možné vnímat skrz tuto zeď, se adaptivně mění podle toho, jak blízko se vnímající nachází a na kolik je nastaven práh. Funguje pouze tehdy, pokud je definován práh v omezení podle blízkosti/vzdálenosti.",
+    "label": "Tlumit podle prahu a vzdálenosti?"
   },
   "animation": {
     "strength": {
@@ -3981,7 +3981,7 @@
       "hint": "Násobitel mezi 0 a 2 určující míru pohybu dveří při animaci. Například u vyklápěcích dveří vyšší hodnota otevře dveře do širšího úhlu. U posuvných dveří vyšší hodnota způsobí delší posunutí."
     },
     "direction.label": "Směr otevření",
-    "double.label": "Dvojité dveře?",
+    "double.label": "Dvoukřídlé dveře?",
     "duration.label": "Délka animace (ms)",
     "flip.label": "Zrcadlit texturu dveří?",
     "texture.label": "Textura dveří",
@@ -3989,11 +3989,11 @@
   }
 },
 "WALL.ANIMATION_TYPES": {
-  "ASCEND": "Vystupující",
-  "DESCEND": "Sestupující",
-  "SLIDE": "Posuvné",
-  "SWING": "Vyklápěcí",
-  "SWIVEL": "Otočné"
+  "ASCEND": "Vytažení",
+  "DESCEND": "Sestoupení",
+  "SLIDE": "Vysunutí",
+  "SWING": "Vyklopení v pantech",
+  "SWIVEL": "Protočení"
 },
 "WALL.ANIMATION_DIRECTIONS": {
   "DEFAULT": "Výchozí",
@@ -4006,16 +4006,16 @@
 "WALL.DoorAnimation": "Animace dveří",
 "WALL.DoorConfiguration": "Nastavení dveří",
 "WALL.NWalls": "[{n} zdí]",
-"WALL.Restrictions": "Omezení zdi",
+"WALL.Restrictions": "Jak tato zeď omezuje",
 "WALL.Submit": "Aktualizovat zeď",
-"WALL.SenseTypes.NONE": "Žádné",
-"WALL.SenseTypes.LIMITED": "Omezené",
-"WALL.SenseTypes.NORMAL": "Normální",
-"WALL.SenseTypes.PROXIMITY": "Blízkost",
-"WALL.SenseTypes.DISTANCE": "Obrácená blízkost",
-"WALL.Directions.BOTH": "Dvoukřídlé",
-"WALL.Directions.LEFT": "Levé",
-"WALL.Directions.RIGHT": "Pravé",
+"WALL.SenseTypes.NONE": "Nijak",
+"WALL.SenseTypes.LIMITED": "Částečně",
+"WALL.SenseTypes.NORMAL": "Normálně",
+"WALL.SenseTypes.PROXIMITY": "Podle blízkosti",
+"WALL.SenseTypes.DISTANCE": "Podle vzdálenosti",
+"WALL.Directions.BOTH": "Z obou stran",
+"WALL.Directions.LEFT": "Z leva",
+"WALL.Directions.RIGHT": "Z prava",
 "WALL.DoorTypes.NONE": "Žádné",
 "WALL.DoorTypes.DOOR": "Dveře",
 "WALL.DoorTypes.SECRET": "Tajné dveře",
