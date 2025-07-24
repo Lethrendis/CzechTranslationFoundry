@@ -3972,8 +3972,8 @@
   "ds.label": "Stav dveří",
   "doorSound.label": "Zvuk dveří",
   "threshold.attenuation": {
-    "hint": "Vzdálenost, do jaké může vnímání proniknout touto zdí, se bude přizpůsobovat vzhledem k blízkosti pozorovatele a prahu aktivace. Platí pouze, je-li definován práh.",
-    "label": "Tlumit prahem přiblížení?"
+    "hint": "Vzdálenost, do jaké je možné vnímat skrz tuto zeď, se adaptivně mění podle toho, jak blízko se pozorovatel nachází a jaký je nastavený práh. Funguje pouze tehdy, pokud je definován práh.",
+    "label": "Tlumit podle vzdálenosti k prahu?"
   },
   "animation": {
     "strength": {
