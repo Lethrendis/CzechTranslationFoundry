@@ -1922,8 +1922,8 @@
   "environment": {
     "globalLight": {
       "enabled": {
-        "label": "Globální osvětlení?",
-        "hint": "Tato scéna obsahuje globální zdroj světla, který poskytuje základní úroveň osvětlení všem oblastem scény."
+        "label": "Je globální osvětlení?",
+        "hint": "Tato scéna obsahuje globální zdroj osvětlení, který poskytuje základní úroveň osvětlení všem oblastem scény."
       },
       "darkness.max": {
         "label": "Práh globálního osvětlení",
@@ -1935,7 +1935,7 @@
       "hint": "Aplikuje překryv, který ztmaví scénu a oslabí světelné zdroje, čímž simuluje noční či slabé osvětlení."
     },
     "darknessLock": {
-      "label": "Zámek úrovně tmy?",
+      "label": "Zamknout úroveň tmy?",
       "hint": "Pokud je tato možnost zaškrtnutá, nelze úroveň tmy měnit."
     },
     "cycle": {
@@ -3972,8 +3972,8 @@
   "ds.label": "Stav dveří",
   "doorSound.label": "Zvuk dveří",
   "threshold.attenuation": {
-    "hint": "Vzdálenost, do jaké může vnímání proniknout touto zdí, se přizpůsobuje vzhledem k blízkosti pozorovatele a prahu aktivace. Platí pouze, je-li definován práh.",
-    "label": "Útlum prahu blízkosti"
+    "hint": "Vzdálenost, do jaké může vnímání proniknout touto zdí, se bude přizpůsobovat vzhledem k blízkosti pozorovatele a prahu aktivace. Platí pouze, je-li definován práh.",
+    "label": "Tlumit prahem přiblížení?"
   },
   "animation": {
     "strength": {
@@ -3981,9 +3981,9 @@
       "hint": "Násobitel mezi 0 a 2 určující míru pohybu dveří při animaci. Například u vyklápěcích dveří vyšší hodnota otevře dveře do širšího úhlu. U posuvných dveří vyšší hodnota způsobí delší posunutí."
     },
     "direction.label": "Směr otevření",
-    "double.label": "Dvojité dveře",
+    "double.label": "Dvojité dveře?",
     "duration.label": "Délka animace (ms)",
-    "flip.label": "Zrcadlit texturu dveří",
+    "flip.label": "Zrcadlit texturu dveří?",
     "texture.label": "Textura dveří",
     "type.label": "Typ animace"
   }
