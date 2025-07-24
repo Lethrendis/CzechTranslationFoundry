@@ -52,7 +52,7 @@
 "Token": "Token",
 "Minimum": "Minimální",
 "Maximum": "Maximální",
-"Image": "Ilustrace",
+"Image": "Obrázek",
 "Invalid": "Neplatný",
 "None": "Nic",
 "Path": "Cesta",
@@ -133,12 +133,12 @@
         "hint": "Jedinečný název dobrodružství (v rámci balíčku, co jej obsahuje)."
       },
       "img": {
-        "label": "Ilustrace banneru",
-        "hint": "Ilustrace banneru o minimální šířce 768 px a výšce 300 px, který se bude u tohoto dobrodružství zobrazovat."
+        "label": "Obrázek banneru",
+        "hint": "Obrázek banneru o minimální šířce 768 px a výšce 300 px, který se bude u tohoto dobrodružství zobrazovat."
       },
       "caption": {
         "label": "Popisek banneru",
-        "hint": "Textový popisek, který se zobrazí pod ilustrací banneru. Tento popisek může obsahovat HTML či prostý text."
+        "hint": "Textový popisek, který se zobrazí pod obrázkem banneru. Tento popisek může obsahovat HTML či prostý text."
       },
       "description": {
         "label": "Popis dobrodružství",
@@ -179,11 +179,11 @@
       "label": "Úhel rotace"
     },
     "vision": {
-      "label": "Poskytuje vidění",
-      "hint": "Zdroj světla s touto možností povolenou slouží tokenům jako další bod vidění. Tuto možnost aktivuj, aby tokeny vždy viděly oblast, kterou osvětluje, i když je tato oblast za zdí, nebo mimo zorné pole tokenu."
+      "label": "Poskytuje vidění?",
+      "hint": "Zdroj světla s touto zaškrtnutou možností slouží tokenům jako další bod vidění. Tuto možnost aktivuj, aby tokeny vždy viděly oblast, kterou osvětluje, i když je tato oblast za zdí, respektive mimo zorné pole tokenu."
     },
     "walls": {
-      "label": "Omezeno zdmi",
+      "label": "Omezit zdmi?",
       "hint": "Určí, zda bude plocha efektu tohoto zdroje světla omezena blízkými zdmi."
     }
   },
@@ -221,30 +221,30 @@
   },
   "path": {
     "label": "Cesta ke zdrojovému souboru",
-    "hint": "Nastaví zvuk na mapě tak, aby přehrával audio soubor, když se tokeny pohybují v jeho dosahu."
+    "hint": "Nastaví zvuk na plátně tak, aby přehrával audio soubor, když se tokeny pohybují v jeho dosahu."
   },
   "radius": {
     "label": "Poloměr efektu"
   },
   "volume": {
     "label": "Maximální hlasitost",
-    "hint": "Maximální hlasitost zvuku v jeho zdroji (pokud je plynulá), nebo všude v oblasti."
+    "hint": "Maximální hlasitost zvuku v jeho zdroji (pokud se má měnit), nebo všude v oblasti."
   },
   "easing": {
-    "label": "Plynutí hlasitosti",
-    "hint": "Upraví úroveň hlasitosti zvuku, když se tokeny přibližují ke zdroji."
+    "label": "Měnit hlasitost?",
+    "hint": "Úroveň hlasitosti zvuku se bude upravovat, jak se budou tokeny přibližovat ke zdroji."
   },
   "hidden": {
-    "label": "Skryté",
-    "hint": "Přepne, když je tento zdroj zvuku dočasně deaktivován."
+    "label": "Skrýt?",
+    "hint": "Po zaškrtnutí bude tento zdroj zvuku dočasně skrytý."
   },
   "walls": {
-    "label": "Omezeno zdmi",
+    "label": "Omezit zdmi?",
     "hint": "Nastaví, zda bude plocha efektu tohoto zdroje zvuku omezena blízkými zdmi."
   },
   "darkness": {
     "label": "Dosah aktivace tmy",
-    "hint": "Můžeš určit rozsah úrovní tmy, ve které bude tento zvuk na mapě slyšitelný.",
+    "hint": "Můžeš určit rozsah úrovní tmy, ve které bude tento zvuk na plátně slyšitelný.",
     "min": {
       "label": "Mezi"
     },
@@ -289,7 +289,7 @@
     "ToggleControls": "Přepínač ovládacích prvků",
     "Close": "Zavřít okno"
   },
-  "IMAGE_POPOUT.AltText": "Zobrazená ilustrace: subjekt není znám."
+  "IMAGE_POPOUT.AltText": "Zobrazený obrázek: subjekt není znám."
 },
 
 "AUDIO": {
@@ -300,7 +300,7 @@
     },
     "ENVIRONMENT": {
       "label": "Prostředí",
-      "tooltip": "Hlasitost seznamů skladeb a zvuků na mapě, které jsou klasifikovány jako zvuky prostředí."
+      "tooltip": "Hlasitost seznamů skladeb a zvuků na scéně, které jsou klasifikovány jako zvuky prostředí."
     },
     "INTERFACE": {
       "label": "Rozhraní",
@@ -537,7 +537,7 @@
 "COMBAT.CombatantCreate": "Vytvořit účastníka boje",
 "COMBAT.CombatantDefeated": "Poražený/á",
 "COMBAT.CombatantHidden": "Skrytý/á",
-"COMBAT.CombatantImage": "Ilustrace náhledu účastníka boje",
+"COMBAT.CombatantImage": "Obrázek náhledu účastníka boje",
 "COMBAT.CombatantInitiative": "Hodnota iniciativy",
 "COMBAT.CombatantStatus": "Stav",
 "COMBAT.CombatantUpdate": "Aktualizovat účastníka boje",
@@ -585,7 +585,7 @@
         },
         "src": {
           "label": "Zdroj média",
-          "hint": "Ilustrace či video soubor, který se použije jako výchozí zvýraznění tahu tokenu."
+          "hint": "Obrázek či video, co se použije jako výchozí zvýraznění tahu tokenu."
         },
         "animation": {
           "label": "Animace",
@@ -643,7 +643,7 @@
 "COMPENDIUM.OwnershipReset": "Resetovat výchozí",
 "COMPENDIUM.ART": {
   "CONFIG": {
-    "Hint": "Pomocí šipek uprav pořadí priorit zdrojů ilustrací. Pokud má jeden aktér ilustrace z více zdrojů, použije se ta s nejvyšší prioritou.",
+    "Hint": "Pomocí šipek uprav pořadí priorit zdrojů ilustrací. Pokud má jeden aktér ilustrace z více zdrojů, použije se ta s nejvyšší prioritou.",
     "Portraits": "Portréty",
     "PriorityDecrease": "Snížit prioritu",
     "PriorityIncrease": "Zvýšit prioritu",
@@ -995,7 +995,7 @@
   "FIELDS": {
     "name.label": "Název",
     "type.label": "Typ",
-    "img.label": "Cesta k ilustraci",
+    "img.label": "Cesta k obrázku",
     "description.label": "Popis",
     "width.label": "Šířka",
     "height.label": "Výška",
@@ -1207,13 +1207,13 @@
 "EDITOR.EditingHTMLWarning": "Stejný dokument upravil i jiný uživatel. Jakékoli tebou provedené změny v HTML by odstranily jeho změny, a proto nemohou být uloženy.",
 "EDITOR.Resync": "Tvůj stav editoru se od serveru odsynchonizoval a musí být obnoven. Tvůj původní obsah editoru byl zkopírován do schránky.",
 "EDITOR.NoUploadPermission": "Aby mohl být vložen ilustrovaný obsah, musíš mít oprávnění k nahrávání souborů.",
-"EDITOR.UploadingFile": "Nahrávání souboru ilustrace.",
+"EDITOR.UploadingFile": "Nahrávání souboru obrázku.",
 "EDITOR.UploadComplete": "Nahrání dokončeno.",
-"EDITOR.InsertImage": "Vložit ilustraci",
+"EDITOR.InsertImage": "Vložit obrázek",
 "EDITOR.ImageSource": "Zdroj",
-"EDITOR.ImageAlt": "Alternativní popis ilustrace",
+"EDITOR.ImageAlt": "Alternativní popis obrázku",
 "EDITOR.ImageDimensions": "Rozměry",
-"EDITOR.ImageDimensionsHint": "Když tato pole necháš prázdná, použije se původní velikost ilustrace.",
+"EDITOR.ImageDimensionsHint": "Když tato pole necháš prázdná, použije se původní velikost obrázku.",
 "EDITOR.ImageInsert": "Vložit",
 "EDITOR.LinkURL": "URL odkazu",
 "EDITOR.LinkText": "Text odkazu",
@@ -1265,7 +1265,7 @@
   "DisplayModeList": "Zobrazit jako seznam",
   "DisplayModeTiles": "Zobrazit jako dlaždice",
   "DisplayModeThumbs": "Zobrazit jako náhledy",
-  "DisplayModeImages": "Zobrazit ilustrace",
+  "DisplayModeImages": "Zobrazit obrázky",
   "FavoritesLabel": "Oblíbené",
   "AddFavorite": "Přidat aktuální složku do oblíbených",
   "RemoveFavorite": "Odebrat složku z oblíbených",
@@ -1554,7 +1554,7 @@
     "hint": "Upraví jas tohoto zdroje světla. Svítivější světla jsou méně utlumená tmou. Výchozí hodnotou standardního zdroje světla je 0.5."
   },
   "negative": {
-    "label": "Zdroj tmy",
+    "label": "Je to zdroj tmy?",
     "hint": "Zdroj tmy blokuje světlo a vidění a potlačuje světelné i vizuální zdroje uvnitř své oblasti působení."
   },
   "priority": {
@@ -1683,12 +1683,12 @@
 "MODMANAGE.UpstreamPackages": "Existuje {number} balíčků, které vyžadují aktivaci tohoto balíčku. Deaktivací tohoto balíčku budou deaktivovány také tyto balíčky.",
 "MODMANAGE.UnavailableDocuments": "Pokud deaktivuješ tyto moduly, budou následující dokumenty nedostupné.",
 
-"NOTE.Create": "Vytvořit poznámku na mapě",
+"NOTE.Create": "Vytvořit poznámku na plátně",
 "NOTE.CreateJournal": "Vytvořit odpovídající zápis v záznamech?",
 "NOTE.Custom": "Vlastní",
 "NOTE.CustomIcon": "Vlastní ikona",
 "NOTE.Unknown": "Neznámé",
-"NOTE.Update": "Aktualizovat poznámku na mapě",
+"NOTE.Update": "Aktualizovat poznámku na plátně",
 "NOTE.SECTIONS": {
   "CONTENT": "Obsah",
   "POSITION": "Pozice",
@@ -1702,7 +1702,7 @@
   "sort.label": "Řazení",
   "global": {
     "label": "Globálně viditelné ",
-    "hint": "Umožní hráčům s oprávněním tuto poznámku vidět odkudkoli na mapě."
+    "hint": "Umožní hráčům s oprávněním tuto poznámku vidět odkudkoli na plátně."
   },
   "texture": {
     "src.label": "Ikona zápisu",
@@ -1806,14 +1806,14 @@
 "SCENE.AccessibilityGM": "Pouze GM",
 "SCENE.AccessibilityAll": "Všichni hráči",
 "SCENE.Activate": "Aktivovat",
-"SCENE.BackgroundScale": "Měřítko ilustrace v pozadí",
-"SCENE.BackgroundScaleHint": "Pro úpravu velikosti ilustrace v pozadí použij SHIFT+kolečko myši, nebo SHIFT+šipku nahoru/dolů.",
+"SCENE.BackgroundScale": "Měřítko obrázku v pozadí",
+"SCENE.BackgroundScaleHint": "Pro úpravu velikosti obrázku v pozadí použij SHIFT+kolečko myši, nebo SHIFT+šipku nahoru/dolů.",
 "SCENE.CaptureInitialViewPosition": "Zachycená pozice plátna jako počáteční pohled ve formuláři nastavení scény.",
 "SCENE.Configure": "Nastavení",
 "SCENE.Dimensions": "Rozměry scény",
-"SCENE.DimensionsHint": "Rozměry scény jsou automaticky nastaveny podle rozměrů prvně vložčené ilustrace pozadí.",
+"SCENE.DimensionsHint": "Rozměry scény jsou automaticky nastaveny podle rozměrů prvně vloženého obrázku pozadí.",
 "SCENE.DimensionChangeTitle": "Změnit rozměry scény?",
-"SCENE.DimensionChangeWarning": "Změnou rozměrů této scény se mohou objekty přesunout relativně k ilustraci pozadí.",
+"SCENE.DimensionChangeWarning": "Změnou rozměrů této scény se mohou objekty přesunout relativně k obrázku pozadí.",
 "SCENE.DimensionLinked": "Rozměry scény jsou aktuálně propojeny. Změnou jednoho rozměru se změní i druhý pro udržení poměru stran. Klikni pro odpojení.",
 "SCENE.DimensionUnlinked": "Rozměry scény jsou aktuálně odpojené. Změna jednoho rozměru neovlivní druhý. Klikni pro propojení.",
 "SCENE.DistortedDimensionsTitle": "Zkreslené rozměry scény",
@@ -1824,7 +1824,7 @@
 "SCENE.GenerateThumbProgress": "Vytvářím náhled scény {name}.",
 "SCENE.GenerateThumbSuccess": "Náhled scény {name} byl úspěšně vytvořen.",
 "SCENE.GridConfigTool": "Nástroj nastavení mřížky",
-"SCENE.GridConfigToolHint": "Nastaví mřížku a pozici ilustrace v pozadí pomocí kolečka myši a šipek, případně lze nastavit ručně následující pole.",
+"SCENE.GridConfigToolHint": "Nastaví mřížku a pozici obrázku v pozadí pomocí kolečka myši a šipek, případně lze nastavit ručně následující pole.",
 "SCENE.GridGridless": "Bez mřížky",
 "SCENE.GridSquare": "Čtvercová",
 "SCENE.GridHexOddR": "Šestiúhelníky - liché řady",
@@ -1833,8 +1833,8 @@
 "SCENE.GridHexEvenQ": "Šestiúhelníky - sudé sloupce",
 "SCENE.GridSizeError": "Tato změna by zmenšila mřížku pod minimální hodnotu 50px. Pokud chceš tuto změnu provést, přepni nejprve na režim bez mřížky a poté, po změně velikosti, nastav novou mřížku.",
 "SCENE.GridResizeHint": "Pro úpravu velikosti mřížky použij ALT+kolečko myši nebo ALT+šipku nahoru/dolů.",
-"SCENE.GridPosition": "Posun ilustrace pozadí",
-"SCENE.GridPositionHint": "K posunu ilustrace pozadí lze používat šipky.",
+"SCENE.GridPosition": "Posun obrázku pozadí",
+"SCENE.GridPositionHint": "K posunu obrázku pozadí lze používat šipky.",
 "SCENE.GridScale": "Měřítko mřížky",
 "SCENE.GridReset": "Vrátit změny",
 "SCENE.InitialView": "Počáteční pohled kamery",
@@ -1858,24 +1858,24 @@
   "navigation.label": "Zobrazit v navigaci",
   "navName": {
     "label": "Název v navigaci",
-    "hint": "Alternativní název scény, který se zobrazuje v navigační liště namísto skutečného názvu scény."
+    "hint": "Alternativní název scény zobrazený v navigační liště místo skutečného názvu scény."
   },
   "background": {
     "src": {
-      "label": "Ilustrace pozadí",
-      "hint": "Nastav ilustraci pozadí a rozměry primární mapy scény."
+      "label": "Obrázek pozadí",
+      "hint": "Primární obrázek pozadí, který nastaví rozměry scény."
     },
     "offsetX.label": "Vodorovně",
     "offsetY.label": "Svisle"
   },
   "backgroundColor.label": "Barva pozadí",
   "foreground": {
-    "label": "Ilustrace popředí",
-    "hint": "Volitelná ilustrace popředí, který se vykresluje nad ostatními objekty ve scéně."
+    "label": "Obrázek popředí",
+    "hint": "Volitelný obrázek popředí vykreslující se nad ostatními objekty na scéně."
   },
   "foregroundElevation": {
     "label": "Výška popředí",
-    "hint": "Výška v jednotkách vzdálenosti určující, v jaké výšce se vykresluje obrázek popředí a nadřazené dlaždice."
+    "hint": "Výška v jednotkách vzdálenosti určující, v jaké výšce se vykresluje obrázek popředí a dlaždice nad hlavou."
   },
   "initial.scale.label": "Přiblížení",
   "grid": {
@@ -1893,7 +1893,7 @@
   },
   "padding": {
     "label": "Procento okrajů",
-    "hint": "Množství dodatečného prostoru okolo ilustrace pozadí scény, které poskytuje využitelnou plochu plátna."
+    "hint": "Množství dodatečného prostoru okolo obrázku pozadí scény, které poskytuje využitelnou plochu plátna."
   },
   "tokenVision": {
     "label": "Používat vidění tokenů?",
@@ -2891,7 +2891,7 @@
 "PERMISSION.ManualRollsHint": "Povolí uživatelům s touto rolí možnost ručně zadávat hody.",
 "PERMISSION.MessageWhisper": "Šeptání soukromých zpráv",
 "PERMISSION.MessageWhisperHint": "Povolí uživatelům s touto rolí šeptat soukromé zprávy, které GM neuvidí.",
-"PERMISSION.NoteCreate": "Vytváření poznámek na mapách",
+"PERMISSION.NoteCreate": "Vytváření poznámek na plátně",
 "PERMISSION.NoteCreateHint": "Povolí uživatelům s touto rolí vytvářet objekty poznámek záznamů, které vlastní.",
 "PERMISSION.PingCanvas": "Pingování na plátno",
 "PERMISSION.PingCanvasHint": "Povolí uživatelům s touto rolí přitahovat pozornost k bodu na plátně animací pingu.",
@@ -3405,7 +3405,7 @@
 "TILE.ConfigTitle": "Nastavení dlaždice",
 "TILE.Dimensions": "Rozměry",
 "TILE.Scale": "Měřítko dlaždice",
-"TILE.ScaleHint": "Upraví měřítko ilustrace na ose X či Y. Ilustrace může přesahovat své ohraničení. Záporné hodnoty ilustraci převrátí.",
+"TILE.ScaleHint": "Upraví měřítko obrázku na ose X či Y. Obrázek může přesahovat své ohraničení. Záporné hodnoty obrázek převrátí.",
 "TILE.OcclusionModeNone": "Žádný (vždy viditelná)",
 "TILE.OcclusionModeFade": "Zeslabení (celá dlaždice)",
 "TILE.OcclusionModeRoof": "Střecha (blokuje vidění a světlo)",
@@ -3428,7 +3428,7 @@
 "TILE.FIELDS": {
   "sort.label": "Řazení",
   "texture": {
-    "src.label": "Ilustrace či video dlaždice",
+    "src.label": "Obrázek či video dlaždice",
     "scaleX.label": "Vodorovně",
     "scaleY.label": "Svisle",
     "tint.label": "Barva tónování"
@@ -3542,14 +3542,14 @@
   },
   "disposition.label": "Postoj tokenu",
   "lockRotation": {
-    "label": "Zákaz otáčení ilustrací?",
+    "label": "Zákaz otáčení obrázku?",
     "hint": "Zabrání tomu, aby se úhel otáčení tokenu vizuálně projevoval na plátně."
   },
   "texture": {
-    "src.label": "Cesta k ilustraci",
+    "src.label": "Cesta k obrázku",
     "fit": {
-      "label": "Režim přizpůsobení ilustrace",
-      "hint": "Určuje, jak se ilustrace přizpůsobí velikosti tokenu."
+      "label": "Režim přizpůsobení obrázku",
+      "hint": "Určuje, jak se obrázek přizpůsobí velikosti tokenu."
     },
     "anchorX.label": "X",
     "anchorY.label": "Y",
@@ -3581,7 +3581,7 @@
       },
       "texture": {
         "label": "Textura subjektu",
-        "hint": "Zadá cestu k ilustraci, která bude umístěna přes dynamický prstenec tokenu. Pokud není zadáno, použije se standardní textura tokenu."
+        "hint": "Zadá cestu k obrázku, který bude umístěn přes dynamický prstenec tokenu. Pokud není zadáno, použije se standardní textura tokenu."
       }
     }
   },
@@ -3631,7 +3631,7 @@
     },
     "src": {
       "label": "Zdroj média",
-      "hint": "Výběr ilustrace či videa, které se použije jako zvýrazňovač tahu tohoto tokenu."
+      "hint": "Výběr obrázku či videa, které se použije jako zvýrazňovač tahu tohoto tokenu."
     },
     "disposition": {
       "label": "Zabarvení podle postoje?",
