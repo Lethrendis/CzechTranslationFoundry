@@ -19,7 +19,7 @@
 "Close": "Zavřít",
 "Deactivate": "Deaktivovat",
 "Degrees": "Stupně",
-"Default": "Základní",
+"Default": "Výchozí",
 "Delete": "Odstranit",
 "DeleteSelected": "Odstranit vybrané",
 "Description": "Popis",
@@ -180,7 +180,7 @@
     },
     "vision": {
       "label": "Poskytuje vidění?",
-      "hint": "Zdroj světla s touto zaškrtnutou možností slouží tokenům jako další bod vidění. Tuto možnost aktivuj, aby tokeny vždy viděly oblast, kterou osvětluje, i když je tato oblast za zdí, respektive mimo zorné pole tokenu."
+      "hint": "Zdroj světla s touto zaškrtnutou možností slouží tokenům jako další bod vidění. Tuto možnost aktivuj, aby tokeny vždy viděly oblast, kterou zdroj osvětluje, i když je za zdí či mimo zorné pole tokenu."
     },
     "walls": {
       "label": "Omezit zdmi?",
@@ -488,116 +488,145 @@
 "CHAT.PrivateRollContent": "Uživatel {user} soukromě hodil kostkami",
 "CHAT.UnknownUser": "Neznámý uživatel",
 
-"COMBAT.NavLabel": "Navigace boje",
-"COMBAT.Begin": "Začít boj",
-"COMBAT.Create": "Vytvořit boj",
-"COMBAT.Delete": "Odstranit boj",
-"COMBAT.Encounter": "Boj",
-"COMBAT.EncounterPrevious": "Aktivovat předchozí boj",
-"COMBAT.EncounterNext": "Aktivovat následující boj",
-"COMBAT.End": "Ukončit boj",
-"COMBAT.InitiativeRoll": "Hod na iniciativu",
-"COMBAT.InitiativeReset": "Resetovat iniciativu",
-"COMBAT.ClearMovementHistories": "Vyčistit historii pohybu",
-"COMBAT.InitiativeScore": "Skóre iniciativy",
-"COMBAT.EndTitle": "Ukončit boj?",
-"COMBAT.EndConfirmation": "Ukončit tento boj a přestat sledovat tahy?",
-"COMBAT.Linked": "Propojeno se scénou, klikni pro odpojení",
-"COMBAT.None": "Žádný boj",
-"COMBAT.NoneActive": "V aktuálně zobrazené scéně neprobíhá žádný boj.",
-"COMBAT.NoneRemaining": "V tomto boji nezůstali žádní neporažení bojovníci.",
-"COMBAT.NotStarted": "Nezahájeno",
-"COMBAT.PanToCombatant": "Přejít na účastníka boje",
-"COMBAT.PingCombatant": "Pingnout účastníka boje",
-"COMBAT.WarnNonVisibleToken": "Tento účastník boje pro tebe není viditelný.",
-"COMBAT.Round": "Kolo {round}",
-"COMBAT.Rounds": "Kola",
-"COMBAT.RoundPrev": "Předchozí kolo",
-"COMBAT.RoundNext": "Další kolo",
-"COMBAT.RollNPC": "Hod NP",
-"COMBAT.RollAll": "Hod všech",
-"COMBAT.RollsInitiative": "{name} hází na iniciativu!",
-"COMBAT.Settings": "Nastavení sledovače boje",
-"COMBAT.SettingsSave": "Uložit nastavení sledovače boje",
-"COMBAT.SidebarTitle": "Sledovač boje",
-"COMBAT.Sounds.Epic": "Epické",
-"COMBAT.Sounds.MC": "Komentátor boje",
-"COMBAT.ToggleVis": "Přepínač viditelnosti",
-"COMBAT.ToggleDead": "Označit jako poraženého",
-"COMBAT.Turn": "Tah",
-"COMBAT.Turns": "Tahy",
-"COMBAT.TurnEnd": "Konec tahu",
-"COMBAT.TurnNext": "Další tah",
-"COMBAT.TurnPrev": "Předchozí tah",
-"COMBAT.UnknownCombatant": "Neznámý účastník boje",
-"COMBAT.Unlinked": "Nepřipojený boj, klikni pro připojení ke scéně",
-"COMBAT.CannotLinkToScene": "Nemůžeš propojit boj se scénou, která neobsahuje všechny účastníky boje.",
-
-"COMBAT.CombatantActor": "Představovaný aktér",
-"COMBAT.CombatantCreate": "Vytvořit účastníka boje",
-"COMBAT.CombatantDefeated": "Poražený/á",
-"COMBAT.CombatantHidden": "Skrytý/á",
-"COMBAT.CombatantImage": "Obrázek náhledu účastníka boje",
-"COMBAT.CombatantInitiative": "Hodnota iniciativy",
-"COMBAT.CombatantStatus": "Stav",
-"COMBAT.CombatantUpdate": "Aktualizovat účastníka boje",
-"COMBAT.CombatantUpdateNamed": "Aktualizovaný účastník boje: {name}",
-"COMBAT.CombatantName": "Zobrazené jméno",
-"COMBAT.CombatantRemove": "Odebrat účastníka boje",
-"COMBAT.CombatantClear": "Vyčistit iniciativu",
-"COMBAT.CombatantReroll": "Přehodit iniciativu",
-"COMBAT.CombatantClearMovementHistory": "Vyčistit historii pohybu",
-"COMBAT.CombatantMovementHistoryCleared": "Historie tokenu \"{name}\" byla vyčištěna.",
-"COMBAT.CombatantToken": "Představovaný token",
-"COMBAT.CombatantScene": "Scéna účastníka boje",
-"COMBAT.CombatantNotInScene": "Účastník boje {name} není přítomen v aktuálně zobrazené scéně.",
-
-"COMBAT.FIELDS": {
-  "round.label": "Kolo",
-  "turn.label": "Tah"
-},
-
-"COMBAT.TURN_MARKERS": {
-  "ANIMATIONS": {
-    "SPIN": "Otáčení",
-    "SPIN_PULSE": "Otáčení s pulzováním",
-    "PULSE": "Pulzování"
-  }
-},
-"COMBAT.CONFIG": {
-  "SHEET": {
-    "TURN_MARKERS": "Zvýraznění tahu tokenů"
+"COMBAT": {
+  "NavLabel": "Navigace boje",
+  "Begin": "Začít boj",
+  "Create": "Vytvořit boj",
+  "Delete": "Odstranit boj",
+  "Encounter": "Boj",
+  "EncounterPrevious": "Aktivovat předchozí boj",
+  "EncounterNext": "Aktivovat následující boj",
+  "End": "Konec boje",
+  "InitiativeRoll": "Hod na iniciativu",
+  "InitiativeReset": "Resetovat iniciativu",
+  "ClearMovementHistories": "Vyčistit historii pohybu",
+  "InitiativeScore": "Skóre iniciativy",
+  "EndTitle": "Ukončit boj?",
+  "EndConfirmation": "Ukončit tento boj a přestat sledovat tahy?",
+  "None": "Žádný boj",
+  "NoneActive": "V aktuálně zobrazené scéně neprobíhá žádný boj.",
+  "NoneRemaining": "V tomto boji nezůstali žádní neporažení bojovníci.",
+  "NotStarted": "Nezahájeno",
+  "PanToCombatant": "Přejít na účastníka boje",
+  "PingCombatant": "Pingnout účastníka boje",
+  "WarnNonVisibleToken": "Tento účastník boje pro tebe není viditelný.",
+  "Round": "Kolo {round}",
+  "Rounds": "Kola",
+  "RoundPrev": "Předchozí kolo",
+  "RoundNext": "Další kolo",
+  "RollNPC": "Hod za NP",
+  "RollAll": "Hod za všechny",
+  "RollsInitiative": "{name} hází na iniciativu!",
+  "Settings": "Nastavení sledovače boje",
+  "SettingsSave": "Uložit nastavení sledovače boje",
+  "SidebarTitle": "Sledovač boje",
+  "Sounds": {
+    "Epic": "Epický",
+    "MC": "Komentátor boje"
+  },
+  "ToggleVis": "Přepínač viditelnosti",
+  "ToggleDead": "Označit jako poraženého",
+  "Turn": "Tah",
+  "Turns": "Tahy",
+  "TurnEnd": "Konec tahu",
+  "TurnNext": "Další tah",
+  "TurnPrev": "Předchozí tah",
+  "UnknownCombatant": "Neznámý účastník boje",
+  "CannotLinkToScene": "Nemůžeš propojit boj se scénou, která neobsahuje všechny účastníky boje.",
+  "CombatantActor": "Představovaný aktér",
+  "CombatantCreate": "Vytvořit účastníka boje",
+  "CombatantDefeated": "Poražený/á",
+  "CombatantHidden": "Skrytý/á",
+  "CombatantImage": "Obrázek náhledu účastníka boje",
+  "CombatantInitiative": "Hodnota iniciativy",
+  "CombatantStatus": "Stav",
+  "CombatantUpdate": "Aktualizovat účastníka boje",
+  "CombatantUpdateNamed": "Aktualizovaný účastník boje: {name}",
+  "CombatantName": "Zobrazené jméno",
+  "CombatantRemove": "Odebrat účastníka boje",
+  "CombatantClear": "Vyčistit iniciativu",
+  "CombatantReroll": "Přehodit iniciativu",
+  "CombatantClearMovementHistory": "Vyčistit historii pohybu",
+  "CombatantMovementHistoryCleared": "Historie tokenu \"{name}\" byla vyčištěna.",
+  "CombatantToken": "Představovaný token",
+  "CombatantScene": "Scéna účastníka boje",
+  "CombatantNotInScene": "Účastník boje {name} není přítomen v aktuálně zobrazené scéně.",
+  "ACTIONS": {
+    "LinkToScene": "Propojit se zobrazenou scénou",
+    "UnlinkFromScene": "Odpojit od scény"
+  },
+  "DURATION": {
+    "ROUNDS": {
+      "one": "Kolo",
+      "two": "Kola",
+      "few": "Kol",
+      "many": "Kol",
+      "other": "Kola"
+    },
+    "TURNS": {
+      "one": "Tah",
+      "two": "Tahy",
+      "few": "Tahů",
+      "many": "Tahů",
+      "other": "Tahy"
+    },
+    "None": "Žádné"
   },
   "FIELDS": {
-    "core.combatTrackerConfig": {
-      "skipDefeated": {
-        "label": "Přeskakovat poražené?",
-        "hint": "Bude automaticky přeskakovat účastníky boje označené coby poražené."
-      },
-      "resource": {
-        "label": "Sledovaný zdroj",
-        "hint": "Zvol atribut, který se má u každého účastníka boje sledovat."
-      },
-      "turnMarker": {
-        "enabled": {
-          "label": "Povolit zvýraznění tahu?",
-          "hint": "Ve výchozím nastavení povolí pro všechny tokeny zvýraznění tahu."
+    "round": {
+      "label": "Kolo"
+    },
+    "turn": {
+      "label": "Tah"
+    }
+  },
+  "TURN_MARKERS": {
+    "ANIMATIONS": {
+      "SPIN": "Otáčení",
+      "SPIN_PULSE": "Otáčení s pulzováním",
+      "PULSE": "Pulzování"
+    }
+  },
+  "CONFIG": {
+    "SHEET": {
+      "TURN_MARKERS": "Zvýraznění tahu tokenů"
+    },
+    "FIELDS": {
+      "core.combatTrackerConfig": {
+        "skipDefeated": {
+          "label": "Přeskakovat poražené?",
+          "hint": "Bude automaticky přeskakovat účastníky boje označené coby poražené."
         },
-        "src": {
-          "label": "Zdroj média",
-          "hint": "Obrázek či video, co se použije jako výchozí zvýraznění tahu tokenu."
+        "resource": {
+          "label": "Sledovaný zdroj",
+          "hint": "Zvol atribut, který se má u každého účastníka boje sledovat."
         },
-        "animation": {
-          "label": "Animace",
-          "hint": "Typ animace, který se použije jako výchozí pro zvýraznění všech tahů tokenů."
-        },
-        "disposition": {
-          "label": "Zabarvení podle postoje?",
-          "hint": "Zvýraznění tahu bude zabarvováno podle postoje tokenu."
+        "turnMarker": {
+          "enabled": {
+            "label": "Zvýrazňovat tah?",
+            "hint": "Ve výchozím nastavení povolí pro všechny tokeny zvýraznění tahu."
+          },
+          "src": {
+            "label": "Zdroj média",
+            "hint": "Obrázek či video, co se použije jako výchozí zvýraznění tahu tokenu."
+          },
+          "animation": {
+            "label": "Animace",
+            "hint": "Typ animace, který se použije jako výchozí pro zvýraznění všech tahů tokenů."
+          },
+          "disposition": {
+            "label": "Zabarvit dle postoje?",
+            "hint": "Zvýraznění tahu bude zabarvováno podle postoje tokenu."
+          }
         }
       }
     }
-  }
+  },
+  "PingInvisibleToken": "Nemůžeš vidět token tohoto účastníka.",
+  "ResourceHint": "Vyber atribut, který chceš sledovat pro každého účastníka.",
+  "SkipDefeatedHint": "Automaticky přeskakovat účastníky označené jako poražené?",
+  "TargetedBy": "Zacíleno od {list}",
+  "ToggleTargeting": "Přepnout cílení"
 },
 
 "COMPENDIUM.Name": "Název kompendia",
@@ -629,6 +658,10 @@
 },
 "COMPENDIUM.ImportEntry": "Importovat záznam",
 "COMPENDIUM.Locked": "{title} [Zamčeno]",
+"COMPENDIUM.Migration": {
+  "Begin": "Zahajuji migraci balíčku kompendia {collection}, prosíme o trpělivost.",
+  "Complete": "Balíček kompendia {collection} byl úspěšně migrován."
+},
 "COMPENDIUM.SidebarTitle": "Balíčky kompendií",
 "COMPENDIUM.Type": "Typ dokumentu",
 "COMPENDIUM.TypeHint": "Každý balíček kompendia obsahuje specifický typ dokumentu.",
@@ -673,7 +706,7 @@
   "MeasureCircle": "Kruhová šablona",
   "MeasureCone": "Kuželová šablona",
   "MeasureRect": "Obdélníková šablona",
-  "MeasureRay": "Paprsková šablona",
+  "MeasureRay": "Liniová šablona",
   "MeasureClear": "Vyčistit šablony",
   "GroupTile": "Ovládání dlaždic",
   "TileSelect": "Výběr dlaždic",
@@ -872,16 +905,16 @@
   "CommonSelect": "Vybrat",
   "CommonSelectMultiple": "Vybrat více",
   "CommonOpenSheet": "Otevřít deník",
-  "DisableToolclips": "Vypnout popisky v nastavení",
+  "DisableToolclips": "Popisky můžeš vypnout v nastavení",
   "CutObjects": "Vyjmuto {count} objektů typu {type}.",
   "CopiedObjects": "Zkopírováno {count} objektů typu {type}.",
   "PastedObjects": "Vloženo {count} objektů typu {type}.",
-  "DeletedObjects": "Smazáno {count} objektů typu {type}.",
+  "DeletedObjects": "Odstraněno {count} objektů typu {type}.",
   "UndoCreateObjects": "Vráceno vytvoření {count} objektů typu {type}.",
-  "UndoDeleteObjects": "Vráceno smazání {count} objektů typu {type}.",
-  "EmptyUndoHistory": "Žádná další historie akcí pro objekty typu {type}, které lze vrátit zpět.",
+  "UndoDeleteObjects": "Vráceno odstranění {count} objektů typu {type}.",
+  "EmptyUndoHistory": "Už není žádná další historie akcí objektů typu {type}, kam by se šlo vrátit.",
   "ObjectIsLocked": "Tuto akci nelze provést, protože objekt typu {type} je zamčený.",
-  "ObjectConfigured": "Tuto akci nelze provést během konfigurace jiného objektu."
+  "ObjectConfigured": "Tuto akci nelze provést během nastavování jiného objektu."
 },
 
 "DICE": {
@@ -1062,11 +1095,11 @@
 "EFFECT.MODE_UPGRADE": "Zvýšení",
 "EFFECT.MODE_OVERRIDE": "Přepsání",
 "EFFECT.TransferLegacy": "Přenést efekt na aktéra?",
-"EFFECT.TransferHintLegacy": "Pokud je zaškrtnuto, pak bude tento efekt zkopírován na aktéra, když bude původní položka tohoto efektu vytvořena na aktérovi, a bude odstraněn, pokud by byla tato položka odstraněna.",
-"EFFECT.DurationTurns": "Trvání efektu (boj)",
-"EFFECT.StartTurns": "Počátek efektu",
+"EFFECT.TransferHintLegacy": "Po zaškrtnutí bude tento efekt zkopírován na aktéra, když bude původní položka tohoto efektu vytvořena na aktérovi, a pokud by byla tato položka odstraněna, bude odstraněn.",
+"EFFECT.DurationTurns": "Trvání efektu (v boji)",
+"EFFECT.StartTurns": "Start efektu",
 "EFFECT.ChangeKey": "Klíč atributu",
-"EFFECT.ChangeMode": "Režim změny",
+"EFFECT.ChangeMode": "Změna režimu",
 "EFFECT.ChangeValue": "Hodnota",
 "EFFECT.ChangePriority": "Priorita",
 "EFFECT.Submit": "Odeslat změny",
@@ -1079,13 +1112,13 @@
   "origin.label": "Původ efektu",
   "transfer": {
     "label": "Aplikovat efekt na aktéra?",
-    "hint": "Pokud je zaškrtnuto, pak bude tento efekt aplikován na jakéhokoliv aktéra, který vlastní položku, k níž efekt náleží."
+    "hint": "Po zaškrtnutí bude tento efekt aplikován na jakéhokoliv aktéra vlastnícího položku, k níž efekt náleží."
   },
   "statuses.label": "Stavy",
   "duration": {
-    "seconds.label": "Doba trvání efektu (v sekundách)",
-    "rounds.label": "Kola",
-    "turns.label": "Tahy",
+    "seconds.label": "Trvání efektu (v sekundách)",
+    "rounds.label": "Kol",
+    "turns.label": "Tahů",
     "startTime.label": "Začátek efektu",
     "startRound.label": "Kolo",
     "startTurn.label": "Tah",
@@ -1093,7 +1126,7 @@
   }
 },
 "EFFECT.TABS": {
-  "details": "Podrobnosti",
+  "details": "Detaily",
   "duration": "Trvání",
   "changes": "Změny"
 },
@@ -1300,7 +1333,7 @@
 
   "TABS": {
     "data": "Uživatelská data",
-    "public": "Základní data",
+    "public": "Data jádra",
     "s3": "Amazon S3"
   }
 },
@@ -1313,7 +1346,7 @@
   "TypeHint": "Písma typu 'Soubor' se načítají z tvé složky s daty a stahují se hráčům. Písma typu 'Systémové' závisí na operačním systému každého uživatele. Prohlížeče je kvůli bezpečnosti nemohou zobrazit, takže je třeba zadat přesný název. Pokud uživatel písmo nemá, zobrazí se náhradní.",
   "Family": "Rodina písma",
   "File": "Soubor písma",
-  "FontPreview": "Ó, náhlý déšť již zvířil prach a čilá laň teď běží s houfcem gazel k úkrytům.",
+  "FontPreview": "Ó, příliš žluťoučký kůň úpěl ďábelské ódy.",
   "RemoveFont": "Odebrat písmo",
   "Style": "Styl písma",
   "Weight": "Tloušťka písma",
@@ -1327,7 +1360,7 @@
 
 "GAME.Paused": "Hra pozastavena",
 "GAME.PausedWarning": "Dokud je hra pozastavena, nelze tuto akci provést.",
-"GAME.ReturnSetup": "Návrat do nastavení",
+"GAME.ReturnSetup": "Přejít do nastavení světů",
 "GAME.ReturnSetupActiveUser": "V tomto světě je právě aktivní jeden další uživatel a bude odpojen. Chceš pokračovat?",
 "GAME.ReturnSetupActiveUsers": "V tomto světě je právě aktivních {number} dalších uživatelů a budou odpojeni. Chceš pokračovat?",
 
@@ -1354,6 +1387,7 @@
   "UNLOCK": "Odemknout lištu",
   "PAGE_NEXT": "Další stránka",
   "PAGE_PREV": "Předchozí stránka",
+  "EMPTY": "Prázdná pozice",
   "CLEAR": "Vyčistit lištu",
   "CLEAR_CONFIRM": "Opravdu chceš vyčistit všechna přiřazená makra z lišty?"
 },
@@ -1470,10 +1504,11 @@
   "Paste": "Vložit objekty",
   "Target": "Zacílit token",
   "Ruler": "Zobrazit měřicí pravítko",
+  "UnconstrainedMovement": "Přepínač neomezeného pohybu",
   "SendToBack": "Přesunout objekty do pozadí",
   "BringToFront": "Přesunout objekty do popředí",
   "ToggleCharacterSheet": "Přepínač zobrazení deníku postavy",
-  "PTTKey": "Push-to-Talk / Push-to-Mute",
+  "PTTKey": "Aktivace klávesou / Deaktivace klávesou",
   "PanUp": "Posunout nahoru",
   "PanLeft": "Posunout doleva",
   "PanDown": "Posunout dolů",
@@ -1554,8 +1589,8 @@
     "hint": "Upraví jas tohoto zdroje světla. Svítivější světla jsou méně utlumená tmou. Výchozí hodnotou standardního zdroje světla je 0.5."
   },
   "negative": {
-    "label": "Je to zdroj tmy?",
-    "hint": "Zdroj tmy blokuje světlo a vidění a potlačuje světelné i vizuální zdroje uvnitř své oblasti působení."
+    "label": "Jde o zdroj tmy?",
+    "hint": "Zdroj tmy po zaškrtnutí blokuje světlo a vidění a potlačuje světelné i vizuální zdroje uvnitř své oblasti působení."
   },
   "priority": {
     "label": "Priorita",
@@ -1597,25 +1632,25 @@
 "LIGHT.AnimationTorch": "Poblikávající světlo",
 "LIGHT.AnimationPulse": "Pulzování",
 "LIGHT.AnimationReactivePulse": "Pulz reagující na zvuk",
-"LIGHT.AnimationChroma": "Chromatické světlo",
+"LIGHT.AnimationChroma": "Zabarvené světlo",
 "LIGHT.AnimationWave": "Pulzující vlna",
 "LIGHT.AnimationFog": "Vířící mlha",
-"LIGHT.AnimationSunburst": "Sluneční výbuch",
+"LIGHT.AnimationSunburst": "Sluneční paprsky",
 "LIGHT.AnimationLightDome": "Světelná kopule",
-"LIGHT.AnimationEmanation": "Mystické vyzařování",
+"LIGHT.AnimationEmanation": "Mystická emanace",
 "LIGHT.AnimationEnergyField": "Energetické pole",
-"LIGHT.AnimationHexaDome": "Šestiboká kopule",
+"LIGHT.AnimationHexaDome": "Hexová kopule",
 "LIGHT.AnimationGhostLight": "Přízračné světlo",
 "LIGHT.AnimationRoilingMass": "Vroucí masa",
 "LIGHT.AnimationBlackHole": "Černá díra",
 "LIGHT.AnimationVortex": "Vír",
 "LIGHT.AnimationBewitchingWave": "Čarovná vlna",
 "LIGHT.AnimationSwirlingRainbow": "Vířící duha",
-"LIGHT.AnimationRadialRainbow": "Radiální duha",
-"LIGHT.AnimationFairyLight": "Vílí světlo",
-"LIGHT.AnimationFlame": "Pochodeň",
+"LIGHT.AnimationRadialRainbow": "Duhová emanace",
+"LIGHT.AnimationFairyLight": "Vílí světla",
+"LIGHT.AnimationFlame": "Plamen",
 "LIGHT.AnimationForceGrid": "Silová mříž",
-"LIGHT.AnimationStarLight": "Hvězdné světlo",
+"LIGHT.AnimationStarLight": "Světlo hvězd",
 "LIGHT.AnimationSmokePatch": "Závoj kouře",
 "LIGHT.AnimationRevolving": "Otáčející se světlo",
 "LIGHT.AnimationSiren": "Světlo sirény",
@@ -1805,7 +1840,7 @@
 "SCENE.Accessibility": "Oprávnění",
 "SCENE.AccessibilityGM": "Pouze GM",
 "SCENE.AccessibilityAll": "Všichni hráči",
-"SCENE.Activate": "Aktivovat",
+"SCENE.Activate": "Aktivovat scénu",
 "SCENE.BackgroundScale": "Měřítko obrázku v pozadí",
 "SCENE.BackgroundScaleHint": "Pro úpravu velikosti obrázku v pozadí použij SHIFT+kolečko myši, nebo SHIFT+šipku nahoru/dolů.",
 "SCENE.CaptureInitialViewPosition": "Zachycená pozice plátna jako počáteční pohled ve formuláři nastavení scény.",
@@ -1819,7 +1854,7 @@
 "SCENE.DistortedDimensionsTitle": "Zkreslené rozměry scény",
 "SCENE.DistortedDimensionsWarning": "Vybral jsi nové rozměry s jiným poměrem stran než původní. Chceš automaticky přemístit umístěné objekty jako tokeny? Výsledek může být zkreslený.",
 "SCENE.GenerateThumb": "Vytvořit náhled",
-"SCENE.GenerateThumbNoCanvas": "Náhled scény nemůže být vytvořen s aktivním nastavením 'Zakázat herní plátno'.",
+"SCENE.GenerateThumbNoCanvas": "Náhled scény nemůže být vytvořen s aktivním nastavením zákazu herního plátna.",
 "SCENE.GenerateThumbUploadDenied": "Náhled scény nemohl být vytvořen, protože uživatel nemá oprávnění k nahrávání souborů.",
 "SCENE.GenerateThumbProgress": "Vytvářím náhled scény {name}.",
 "SCENE.GenerateThumbSuccess": "Náhled scény {name} byl úspěšně vytvořen.",
@@ -1839,7 +1874,7 @@
 "SCENE.GridReset": "Vrátit změny",
 "SCENE.InitialView": "Počáteční pohled kamery",
 "SCENE.InitialViewButton": "Vyfotit aktuální pohled kamery",
-"SCENE.InitialViewHint": "Nastaví výchozí pozici kamery, která zobrazí výhled při prvním zobrazení této scény.",
+"SCENE.InitialViewHint": "Nastaví výchozí pozici kamery, která bude nastavena při prvním zobrazení této scény.",
 "SCENE.InvalidDimension": "Zadané rozměry by vedly k necelému číslu pro druhý rozměr. Zkus jinou hodnotu, nebo rozměry odpoj.",
 "SCENE.Loading": "Načítání {name}",
 "SCENE.Notes": "Poznámky scény",
@@ -1847,7 +1882,7 @@
 "SCENE.Preload": "Přednačíst scénu",
 "SCENE.View": "Zobrazit scénu",
 "SCENE.ShiftBG": "Posunout pozadí",
-"SCENE.ToggleNav": "Připnout do navigace",
+"SCENE.ToggleNav": "Přepnout z/do navigace",
 "SCENE.Ambience": {
   "Base": "Základní atmosféra",
   "Dark": "Temná atmosféra",
@@ -1855,10 +1890,10 @@
 },
 "SCENE.FIELDS": {
   "name.label": "Název scény",
-  "navigation.label": "Zobrazit v navigaci",
+  "navigation.label": "Přidat do navigace?",
   "navName": {
     "label": "Název v navigaci",
-    "hint": "Alternativní název scény zobrazený v navigační liště místo skutečného názvu scény."
+    "hint": "Alternativní název scény zobrazený v navigační nabídce místo skutečného názvu scény."
   },
   "background": {
     "src": {
@@ -1897,12 +1932,12 @@
   },
   "tokenVision": {
     "label": "Používat vidění tokenů?",
-    "hint": "Omezuje viditelnost scény na základě vidění ovládaných tokenů. Pokud je odškrtnuto, je celá scéna viditelná."
+    "hint": "Omezuje viditelnost scény na základě vidění ovládaných tokenů. Po odškrtnutí je celá scéna viditelná."
   },
   "fog": {
     "exploration": {
       "label": "Průzkum válečné mlhy?",
-      "hint": "Pokud je tato možnost zaškrtnuta, bude průzkum válečné mlhy sledován pro každého uživatele zvlášť a ukládán do databáze během objevování scény. Jinak se průzkum neukládá a tokeny vidí pouze to, co je právě v jejich zorném poli."
+      "hint": "Po zaškrtnutí bude průzkum válečné mlhy sledován pro každého uživatele zvlášť a ukládán do databáze během objevování scény. Jinak se průzkum neukládá a tokeny vidí pouze to, co je právě v jejich zorném poli."
     },
     "overlay": {
       "label": "Ilustrace válečné mlhy",
@@ -1910,11 +1945,11 @@
     },
     "colors": {
       "explored": {
-        "label": "Barva prozkoumané mlhy",
+        "label": "Barva odhalené mlhy",
         "hint": "Barva použitá na ty části scény, které již byly prozkoumány, ale aktuálně nejsou v zorném poli tokenů."
       },
       "unexplored": {
-        "label": "Barva neprozkoumané mlhy",
+        "label": "Barva neodhalené mlhy",
         "hint": "Plná barva aplikovaná na neprozkoumané oblasti scény."
       }
     }
@@ -1922,25 +1957,25 @@
   "environment": {
     "globalLight": {
       "enabled": {
-        "label": "Je globální osvětlení?",
-        "hint": "Tato scéna obsahuje globální zdroj osvětlení, který poskytuje základní úroveň osvětlení všem oblastem scény."
+        "label": "Globální osvětlo?",
+        "hint": "Tato scéna obsahuje globální zdroj světla poskytují základní úroveň světla všem oblastem scény."
       },
       "darkness.max": {
-        "label": "Práh globálního osvětlení",
-        "hint": "Práh tmy mezi 0 a 1. Pokud úroveň tmy ve scéně překročí tento práh, globální osvětlení se automaticky vypne."
+        "label": "Práh globálního světla",
+        "hint": "Práh tmy mezi 0 a 1. Pokud úroveň tmy ve scéně překročí tento práh, globální světlo se automaticky vypne."
       }
     },
     "darknessLevel": {
       "label": "Úroveň tmy",
-      "hint": "Aplikuje překryv, který ztmaví scénu a oslabí světelné zdroje, čímž simuluje noční či slabé osvětlení."
+      "hint": "Aplikuje překryv, který ztmaví scénu a oslabí zdroje světla, čímž simuluje noční či tlumené osvětlení."
     },
     "darknessLock": {
       "label": "Zamknout úroveň tmy?",
-      "hint": "Pokud je tato možnost zaškrtnutá, nelze úroveň tmy měnit."
+      "hint": "Po zaškrtnutí nelze měnit úroveň tmy."
     },
     "cycle": {
       "label": "Prolnout atmosféru?",
-      "hint": "Pokud je tato možnost zaškrtnutá, hodnoty základní a temné atmosféry se sloučí podle aktuální úrovně tmy."
+      "hint": "Po zaškrtnutí se hodnoty základní a temné atmosféry sloučí podle aktuální úrovně tmy."
     }
   },  
   "environment.base": {
@@ -2115,27 +2150,27 @@
 "SETTINGS.ResetInfo": "Obnoví všechna nastavení na výchozí hodnoty. Pro potvrzení klikni na \"Uložit změny\".",
 "SETTINGS.Save": "Uložit změny",
 "SETTINGS.Setup": "Návrat do nastavení",
-"SETTINGS.ShowToolclips": "Zobrazovat popisky po přejetí myší?",
-"SETTINGS.ShowToolclipsH": "Zda se mají nad nástroji v postranním panelu zobrazovat po přejetí myší popisky.",
+"SETTINGS.ShowToolclips": "Zobrazovat popisky postranního panelu?",
+"SETTINGS.ShowToolclipsH": "Po zaškrtnutí se budou nad nástroji v postranním panelu zobrazovat po přejetí myší popisky.",
 "SETTINGS.None": "Žádné",
 "SETTINGS.AnimVisionN": "Animovat vidění tokenů?",
-"SETTINGS.AnimVisionL": "Animuje vidění tokenů a změny osvětlení během pohybu tokenů. Odškrtnutí zlepší výkon na slabších strojích.",
+"SETTINGS.AnimVisionL": "Po zaškrtnutí bude vidění tokenů a změny osvětlení během pohybu tokenů animováno. Odškrtnutí zlepší výkon na slabších strojích.",
 "SETTINGS.AnimLightN": "Animovat zdroje osvětlení?",
-"SETTINGS.AnimLightL": "Povolení animací zdrojů osvětlení. Odškrtnutí zlepší výkon na slabších strojích.",
+"SETTINGS.AnimLightL": "Zaškrtnutí povolí animace zdrojů osvětlení. Odškrtnutí zlepší výkon na slabších strojích.",
 "SETTINGS.FPSMeterN": "Zobrazovat měřič snímků za sekundu?",
 "SETTINGS.FPSMeterL": "Zobrazí v pravém dolním rohu obrazovky měřič snímků za sekundu, který hlásí výkon při vykreslování plátna ve snímcích za sekundu.",
 "SETTINGS.ResolutionScaleN": "Používat měřítko rozlišení pixelů?",
-"SETTINGS.ResolutionScaleL": "Měřítko rozlišení herního plátna podle detekovaného poměru pixelů prohlížeče. Pro zobrazovací zařízení s vysokou hustotou pixelů (jako jsou retina displeje) to zvýší vykreslené rozlišení plátna na úkor výkonu aplikace. Měřítko rozlišení je také ovlivněna úrovní přiblížení prohlížeče a nastavením zobrazení operačního systému. V takových případech toto nastavení zvýší či sníží efektivní rozlišení plátna v závislosti na míře přiblížení. Odškrtnutí tohoto nastavení může u displejů s vysokou hustotou pixelů zlepšit výkon na úkor vizuální kvality.",
+"SETTINGS.ResolutionScaleL": "Po zaškrtnutí se bude měřítko rozlišení herního plátna měnit podle detekovaného poměru pixelů prohlížeče. Pro zobrazovací zařízení s vysokou hustotou pixelů (jako jsou retina displeje) to zvýší vykreslené rozlišení plátna na úkor výkonu aplikace. Měřítko rozlišení je také ovlivněno úrovní přiblížení prohlížeče a nastavením zobrazení operačního systému. V takových případech toto nastavení zvýší či sníží efektivní rozlišení plátna v závislosti na míře přiblížení. Odškrtnutí tohoto nastavení může u displejů s vysokou hustotou pixelů zlepšit výkon na úkor vizuální kvality.",
 "SETTINGS.LangN": "Jazykové preference",
 "SETTINGS.LangL": "Změní jazyk používaný ve Foundry VTT.",
 "SETTINGS.LClickReleaseN": "Uvolňovat objekty levým kliknutím?",
-"SETTINGS.LClickReleaseL": "Pokud je povoleno, kliknutí levým tlačítkem myši na prázdné místo plátna uvolní jakékoli aktuálně ovládané objekty. Pokud je zakázáno, objekty se uvolní výběrem prázdného místa, kliknutím se shiftem na objekt, případně stisknutím klávesy escape.",
+"SETTINGS.LClickReleaseL": "Po zaškrtnutí bude kliknutí levým tlačítkem myši na prázdné místo plátna uvolňovat jakékoli aktuálně ovládané objekty. Při odškrtnutí se objekty uvolní výběrem prázdného místa, kliknutím se shiftem na objekt, případně stiskem klávesy escape.",
 "SETTINGS.NoCanvasN": "Zakázat herní plátno?",
-"SETTINGS.NoCanvasL": "Herní plátno poskytující vizuální zobrazení virtuálního stolu může být zakázáno. Umožní to slabším strojům používat určitou podmnožinu softwarových funkcí.",
+"SETTINGS.NoCanvasL": "Po zaškrtnutí bude herní plátno poskytující vizuální zobrazení virtuálního stolu zakázáno. Umožní to i slabším strojům používat určitou podmnožinu softwarových funkcí.",
 "SETTINGS.CBubN": "Povolit bubliny chatu?",
-"SETTINGS.CBubL": "Nastavit, zda se budou nad tokeny ve hře zobrazovat bubliny a emoce z chatu.",
-"SETTINGS.CBubPN": "Soustředit pozornost na mluvící token?",
-"SETTINGS.CBubPL": "Nastaví, zda se má kamera automaticky vycentrovat na mluvící token zobrazující bublinu chatu.",
+"SETTINGS.CBubL": "Po zaškrtnutí se budou nad tokeny ve hře zobrazovat bubliny a emoce z chatu.",
+"SETTINGS.CBubPN": "Soustřeďovat pozornost na mluvící token?",
+"SETTINGS.CBubPL": "Po zaškrtnutí se bude kamera automaticky centrovat na mluvící token zobrazující bublinu chatu.",
 "SETTINGS.MaxFPSN": "Maximální FPS",
 "SETTINGS.MaxFPSL": "Omezí maximální počet snímků za sekundu. Tedy rychlsot, jakou bude Foundry VTT vykreslovat při aktualizace plátna. Snížení této hodnoty může zlepšit výkon aplikace na méně výkonném hardwaru.",
 "SETTINGS.DefaultSheetsN": "Výchozí deníky dokumentů",
@@ -2147,7 +2182,7 @@
 "SETTINGS.PhotosensitiveModeN": "Používat režim fotosenzitivity?",
 "SETTINGS.PhotosensitiveModeL": "Zaškrtnutí tohoto režimu snižuje přítomnost a intenzitu blikajících, rychle se pohybujících a opakujících se animací a efektů.",
 "SETTINGS.MipMapN": "Vyhlazovat textury při přiblížení?",
-"SETTINGS.MipMapL": "Zda vypočítávat mipmapy pro vyhlazení textur spritů při nižších úrovních přiblížení. Jedná se o nastavení klientů, protože různí uživatelé mohou preferovat odlišné vizuální styly.",
+"SETTINGS.MipMapL": "Po zaškrtnutí se budou vypočítávat mipmapy pro vyhlazení textur spritů při nižších úrovních přiblížení. Jedná se o nastavení klientů, protože různí uživatelé mohou preferovat odlišné vizuální styly.",
 "SETTINGS.PerformanceModeN": "Režim výkonu",
 "SETTINGS.PerformanceModeL": "Vybrat režim výkonu, který ovlivňuje kvalitu vykreslování plátna a výkon aplikace. Na méně výkonném hardwaru budou lépe fungovat nižší režimy výkonu.",
 "SETTINGS.PerformanceModeLow": "Nízký výkon",
@@ -2155,16 +2190,16 @@
 "SETTINGS.PerformanceModeHigh": "Vysoký výkon",
 "SETTINGS.PerformanceModeMax": "Maximální výkon",
 "SETTINGS.ScrollStatusN": "Zobrazovat posuvný text?",
-"SETTINGS.ScrollStatusL": "Nad tokeny či jinými objekty na plátně se může zobrazovat posuvný text, aby poskytl textovou zpětnou vazbu o změnách tohoto objektu.",
+"SETTINGS.ScrollStatusL": "Po zaškrtnutí se může nad tokeny a jinými objekty na plátně zobrazovat posuvný text, aby poskytl textovou zpětnou vazbu o změnách tohoto objektu.",
 "SETTINGS.SoftSN": "Povolit měkké stíny?",
 "SETTINGS.SoftSL": "Povolí měkké stíny pro krásnější dynamické osvětlení, nebo je lze zakázat pro zlepšení výkonu na strojích se slabším hardwarem.",
 "SETTINGS.TabCore": "Hlavní nastavení",
 "SETTINGS.TabModule": "Nastavení modulu",
 "SETTINGS.TabSystem": "Nastavení systému",
-"SETTINGS.TokenAutoRotateN": "Automatické otáčení tokenů?",
-"SETTINGS.TokenAutoRotateL": "Pokud je tato možnost zaškrnuta, budou se tokeny ve výchozím nastavení automaticky otáčet ve směru pohybu. Bez ohledu na toto nastavení ale možnost ´Zamknout otáčení´ u jednotlivých tokenů stále zabrání vizuálnímu otáčení jejich ilustrace.",
-"SETTINGS.TokenDragPreviewN": "Povolit náhled výhledu při přetahování tokenů?",
-"SETTINGS.TokenDragPreviewL": "Když je zaškrtnuto, zobrazuje se v reálném čase vidění a osvětlení tokenu během tažení myší levým tlačítkem. Tato funkce je ve výchozím nastavení odškrtnuta, protože může podporovat nežádoucí metaherní chování.",
+"SETTINGS.TokenAutoRotateN": "Automaticky otáčet tokeny?",
+"SETTINGS.TokenAutoRotateL": "Po zaškrtnutí se budou tokeny ve výchozím nastavení automaticky otáčet po směru pohybu. Bez ohledu na toto nastavení však uzamčení otáčení u jednotlivých tokenů stále zabrání vizuálnímu otáčení jejich obrázku.",
+"SETTINGS.TokenDragPreviewN": "Povolit vidění při přetahování tokenů?",
+"SETTINGS.TokenDragPreviewL": "Po zaškrtnutí se bude v reálném čase zobrazovat vidění a osvětlení tokenu při tažení myší levým tlačítkem. Tato funkce je ve výchozím nastavení odškrtnuta, protože může podporovat nežádoucí metaherní chování.",
 "SETTINGS.PrototypeTokenOverrides": {
   "Name": "Přepis prototypu tokenu",
   "Label": "Nastavit přepis prototypu",
@@ -2203,7 +2238,7 @@
 "SETTINGS.GridDiagonalsIllegal": "Nezákonné (∞)",
 
 "SETTINGS.UniversalKeybindingsN": "Používat univerzální zkratky?",
-"SETTINGS.UniversalKeybindingsL": "Porovnává klávesové zkratky podle napsaného znaku namísto fyzické polohy klávesy. Zlepšuje podporu pro rozložení AZERTY, QWERTZ, Kana a další. Je to experimentální funkce. Vyžaduje restart.",
+"SETTINGS.UniversalKeybindingsL": "Po zaškrtnutí budou porovnávány klávesové zkratky podle napsaného znaku namísto fyzické polohy klávesy. Zlepšuje podporu pro rozložení AZERTY, QWERTZ, Kana a další. Je to experimentální funkce. Vyžaduje znovunačtení.",
 
 "SETTINGS.UI": {
   "MENU": {
@@ -2353,7 +2388,7 @@
   "InstallSuccess": "{type} {id} byl úspěšně nainstalován",
   "InstallFailure": "Instalace selhala: {message}. Pro více podrobností se podívej na konzoli (F12)",
   "InstallWorld": "Nainstalovat svět",
-  "UninstallSuccess": "úspěšně odinstalováno",
+  "UninstallSuccess": "úspěšně odinstalován",
   "UninstallFailure": "Odinstalace selhala",
   "UpdateSuccess": "úspěšně aktualizováno",
   "UpdateFailure": "Aktualizace selhala",
@@ -2364,10 +2399,10 @@
   "SystemFilter": "Filtr herních systémů",
   "ModuleFilter": "Filtr modulů",
   "PackageCategories": "Kategorie balíčků",
-  "PackageInstalled": "Nainstalováno",
-  "PackageNotOwned": "Není vlastněno",
+  "PackageInstalled": "Nainstalován",
+  "PackageNotOwned": "Není vlastněn",
   "PackageName": "Název balíčku",
-  "PackageProtected": "Chráněno",
+  "PackageProtected": "Chráněn",
   "PackageRequiresDowngradeHint": "Pro instalaci tohoto balíčku je třeba přejít na nižší verzi Foundry VTT {vmax}.",
   "PackageRequiresDowngradeLabel": "Vyžaduje nižší verzi",
   "PackageRequiresUpgradeHint": "Pro instalaci tohoto balíčku je třeba přejít na vyšší verzi Foundry VTT {vmin}.",
@@ -2403,13 +2438,13 @@
   "PackageUpdateCoreUpdateNeeded": "Je k dispozici aktualizace pro {id}, ale nelze ji nainstalovat, protože vyžaduje aktualizaci jádrového softwaru na alespoň {vmin}. Aktuálně používáš verzi {vcur}.",
   "PackageUpdateCoreUnstable": "Je k dispozici aktualizace {id}, ale nemůže být nainstalována, protože vyžaduje verzi jádrového softwaru {vmin}, která ještě není stabilní.",
   "PackageUpdateCoreInsufficient": "Je k dispozici aktualizace, ale k fungování vyžaduje starší verzi jádrového softwaru {vmax}.",
-  "PackageDeleteTitle": "{type} odstranit: {title}",
-  "PackageDeleteConfirm": "{type} \"{title}\" má být opravdu odstraněn?",
+  "PackageDeleteTitle": "Odstranit {type}: {title}",
+  "PackageDeleteConfirm": "Má být {type} \"{title}\" opravdu odstraněno?",
   "WorldDeleteConfirmCode": "Pokud chceš pokračovat, přesně opiš tento kód do spodního pole: ",
   "WorldDeleteConfirmWarning": "Tímto trvale smažeš svůj svět a jeho obsah a nepůjde to vrátit zpět. Opravdu to chceš udělat?",
   "PackageDeletePersistent": "Tento balíček má uložené trvalé soubory, často používané pro věci jako nastavení či uložená data. Pokud budeš pokračovat, budou tato data smazána.",
   "PackageDeleteNoUndo": "<strong>Varování:</strong> Tuto operaci nelze vrátit zpět.",
-  "PackageDeleteWorldConfirm": "Pro potvrzení požadavku na odstranění musíš zadat přesný kód.",
+  "PackageDeleteWorldConfirm": "Pro potvrzení požadavku na odstranění musíš přesně zadat kód.",
   "RequiredPackageNote": "Tato závislost je pro fungování balíčku požadována.",
   "RecommendedPackageNote": "Tato závislost je doporučena, protože vylepšuje fungování balíčku.",
   "PackageStatusCheck": "Aktualizace",
@@ -2473,7 +2508,7 @@
   "WorldMigrationBackupPrompt": "<p><strong>Tento proces nelze vrátit zpět</strong>. Doporučujeme před pokračováním zálohovat data světa. Záloha bude potřebná, pokud budeš chtít obnovit předchozí verzi.</p>",
   "WorldMigrationCreateBackup": "Vytvořit zálohu před migrací?",
   "WorldMigrationBegin": "Spustit migraci",
-  "WorldMigrationInProcess": "Data tvého světa se migrují pro kompatibilitu s verzí {version}. Tento proces může chvíli trvat. Buď prosím trpělivý a nezavírej aplikaci.",
+  "WorldMigrationInProcess": "Data tvého světa se migrují pro kompatibilitu s verzí {version}. Tento proces může chvíli trvat. Prosíme o trpělivost, nezavírej aplikaci.",
 
   "AdminAccess": "Vyžadován přístup administrátora",
   "AdminPasswordPrompt": "Na tomto serveru není aktuálně žádná aktivní hra. Pro přístup do nabídky nastavení je třeba zadat heslo administrátora serveru.",
@@ -2505,19 +2540,19 @@
   "CreateSnapshotHint": "Vytvoření snímku uloží zálohy všech aktuálně nainstalovaných balíčků, což ti umožní později vrátit stav instalace Foundry VTT zpět do okamžiku, kdy byl snímek pořízen.",
   "CreateSnapshotPackageList": "Do tohoto snímku budou zahrnuty následující balíčky:",
   "CreateSnapshotConfirm": "Tento proces může trvat dlouho v závislosti na počtu balíčků, jejich velikosti a úložném médiu a nelze jej přerušit. Chceš pokračovat?",
-  "DeletingBackup": "Smazání zálohy",
+  "DeletingBackup": "Odstranění zálohy",
   "DeleteBackupComplete": "Záloha {title} byla odstraněna.",
   "DeleteBackupCompletePl": "Odstraněno {count} záloh {title}.",
   "DeleteBackupFailure": "Nepodařilo se odstranit zálohy balíčku '{title}'. Pro podrobnosti se podívej do konzole (F12).",
-  "DeleteBackupTitle": "Smazání záloh pro {title}",
-  "DeleteBackupWarning": "Smazání zálohy nelze vrátit zpět. Chceš pokračovat?",
+  "DeleteBackupTitle": "Odstranění záloh {title}",
+  "DeleteBackupWarning": "Odstranění zálohy nelze vrátit zpět. Chceš pokračovat?",
   "DeleteBackupWarningPl": "<strong>{count}</strong> záloh bylo vybráno k odstranění. Tato akce nelze vrátit zpět. Chceš pokračovat?",
-  "DeletingSnapshot": "Smazání snímků",
+  "DeletingSnapshot": "Odstranění snímků",
   "DeleteSnapshotComplete": "Snímek byl odstraněn.",
   "DeleteSnapshotCompletePl": "Odstraněno {count} snímků.",
   "DeleteSnapshotFailure": "Nepodařilo se odstranit jeden či více snímků. Pro podrobnosti se podívej do konzole (F12).",
-  "DeleteSnapshotTitle": "Smazání snímků",
-  "DeleteSnapshotWarning": "Smazání snímku nelze vrátit zpět. Chceš pokračovat?",
+  "DeleteSnapshotTitle": "Odstranění snímků",
+  "DeleteSnapshotWarning": "Odstranění snímku nelze vrátit zpět. Chceš pokračovat?",
   "DeleteSnapshotWarningPl": "<strong>{count}</strong> snímků bylo vybráno k odstranění. Tato akce nelze vrátit zpět. Chceš pokračovat?",
   "NoteHint": "Volitelně poskytne poznámku pro orientaci.",
   "DiskSpace": "Volné místo",
@@ -2609,7 +2644,7 @@
     "FullList": "Zobrazit <a href=\"{url}\" target=\"_blank\">úplný seznam</a> poznámek k verzi.",
     "BeginDownload": "Spustit stahování",
     "NewGenerationHint": "Před aktualizací zvaž vytvoření snímku všech nainstalovaných balíčků pro případ, že budeš chtít provést návrat zpět.",
-    "PreviewCompatibilityHint": "Pomocí tlačítka ´Náhled kompatibility´ níže můžeš ověřit, zda jsou ve Foundry VTT verze {version} podporovány všechny tvé světy, herní systémy a moduly."
+    "PreviewCompatibilityHint": "Pomocí tlačítka 'Náhled kompatibility' níže můžeš ověřit, zda jsou ve Foundry VTT verze {version} podporovány všechny tvé světy, herní systémy a moduly."
   }
 },
 
@@ -2779,11 +2814,11 @@
 "SHEETS.ConfigureSheet": "Nastavit deník",
 "SHEETS.ConfigureTitle": "{prefix}: Nastavení deníku",
 "SHEETS.ThisSheet": "Tento deník",
-"SHEETS.Defaults": "Výchozí",
+"SHEETS.Defaults": "Stanovení výchozího deníku",
 "SHEETS.DefaultSheet": "Výchozí deník",
 "SHEETS.DefaultDocumentSheet": "Výchozí deník pro {document}",
-"SHEETS.DocumentSheetHint": "Přepiš, jaký deník chceš pro tento konkrétní dokument používat.",
-"SHEETS.TypeSheetHint": "Nastav pro tento typ dokumentu výchozí typ deníku (může pouze GM).",
+"SHEETS.DocumentSheetHint": "Nastav, jaký deník chceš pro tento jeden konkrétní dokument používat.",
+"SHEETS.TypeSheetHint": "Nastaví, jaký bude pro tento typ dokumentu výchozí deník (může pouze GM).",
 "SHEETS.DocumentSheetPrivate": "Pro zobrazení deníku tohoto typu {type} nemáš dostatečná oprávnění.",
 "SHEETS.Save": "Uložit nastavení deníku",
 "SHEETS.FormNavLabel": "Navigace mezi záložkami formuláře",
@@ -2802,7 +2837,7 @@
   }
 },
 
-"FOLDER.Clear": "Vyčistit složku",
+"FOLDER.Clear": "Přesunout ze složek",
 "FOLDER.Collapse": "Sbalit všechny složky",
 "FOLDER.Delete": "Odstranit vše",
 "FOLDER.DeleteName": "Odstranit vše: {name}",
@@ -3321,7 +3356,7 @@
 
 "TABLE": {
   "AnimateSetting": "Animovat hody tabulek?",
-  "AnimateSettingHint": "Při losování házecí tabulkou zobrazí animaci ve stylu rulety.",
+  "AnimateSettingHint": "Po zaškrtnutí se bude při losování házecí tabulkou zobrazovat animace ve stylu rulety.",
   "DrawFlavor": "Vylosuje výsledek z tabulky {name}",
   "DrawFlavorPlural": "Vylosuje {number} výsledků z tabulky {name}",
   "NoAvailableResults": "Z této tabulky nelze vylosovat žádné dostupné výsledky.",
@@ -3378,13 +3413,13 @@
 },
 
 "TEMPLATE.ConeTypeSetting": "Tvar šablony kuželu",
-"TEMPLATE.ConeTypeSettingHint": "Určí, jak má být definována oblast efektu daná kuželovou šablonou. Toto nastavení nemá žádný vliv, pokud jsou aktivní ´Mřížkové tvary šablon´.",
+"TEMPLATE.ConeTypeSettingHint": "Určí, jak má být definována oblast efektu daná kuželovou šablonou. Toto nastavení nemá žádný vliv, pokud jsou aktivní mřížkové tvary šablon.",
 "TEMPLATE.ConeTypeFlat": "Plochý",
 "TEMPLATE.ConeTypeRound": "Zaoblený",
 "TEMPLATE.SubmitCreate": "Vytvořit měřící šablonu",
 "TEMPLATE.SubmitUpdate": "Aktualizovat měřící šablonu",
 "TEMPLATE.GridTemplatesSetting": "Používat mřížkové tvary šablon?",
-"TEMPLATE.GridTemplatesSettingHint": "Nastaví, zda má být oblast efektu šablon založena na mřížce namísto eukleidovského měření.",
+"TEMPLATE.GridTemplatesSettingHint": "Po zaškrtnutí budou šablony oblastí efektů založeny na mřížce namísto eukleidovského měření.",
 "TEMPLATE.TYPES": {
   "circle": "Kruh",
   "cone": "Kužel",
@@ -3526,15 +3561,15 @@
   "sort.label": "Řazení",
   "movementAction.label": "Akce pohybu",
   "actorId.label": "Zastupovaný aktér",
-  "actorLink.label": "Propojit data s aktérem?",
+  "actorLink.label": "Propojit s aktérem?",
   "displayName.label": "Zobrazení názvu",
   "appendNumber": {
     "label": "Přidávat číslo k názvu?",
-    "hint": "Bude přidávat automaticky zvyšující se číslo k názvu nepropojených tokenů. Např. \"Goblin 3\"."
+    "hint": "Po zaškrtnutí bude přidáváno automaticky zvyšující se číslo k názvu nepropojených tokenů. Např. \"Goblin 3\"."
   },
   "prependAdjective": {
-    "label": "Přidávat náhodné přídavné jméno?",
-    "hint": "Bude přidávat náhodné přídavné jméno před název nepropojených tokenů. Např. \"Angry Goblin\"."
+    "label": "Přidávat přídavné jméno?",
+    "hint": "Po zaškrtnutí budou přidávána náhodná přídavná jména před názvy nepropojených tokenů. Např. \"Rozzlobený Goblin\"."
   },
   "occludable.radius": {
     "label": "Poloměr odhalení",
@@ -3555,7 +3590,7 @@
     "anchorY.label": "Y",
     "tint.label": "Barva tónování"
   },
-  "randomImg.label": "Náhodně zobrazovat ilustrace divokých karet?",
+  "randomImg.label": "Náhodně vybírat obrázky ze složky? (cestu k ní zadávej ../složka/*)",
   "shape": {
     "label": "Tvar",
     "hint": "Tvar tokenu."
@@ -3573,7 +3608,7 @@
       }
     },
     "effects.label": "Efekty prstence?",
-    "enabled.label": "Povolení prstence?",
+    "enabled.label": "Povolit prstenec?",
     "subject": {
       "scale": {
         "label": "Úprava měřítka subjektu",
@@ -3587,15 +3622,15 @@
   },
   "sight": {
     "enabled": {
-      "label": "Povolení výhledu?",
+      "label": "Povolit videní?",
       "hint": "Umožňuje tokenu vidět osvětlené prostory v jeho zorném poli."
     },
     "range": {
-      "label": "Dosah výhledu",
+      "label": "Dosah videní",
       "hint": "Vzdálenost, na kterou token vidí bez světla."
     },
     "angle": {
-      "label": "Úhel výhledu",
+      "label": "Úhel videní",
       "hint": "Úhel kužele zraku (výchozí je 360)."
     },
     "visionMode": {
@@ -3623,7 +3658,7 @@
   "turnMarker": {
     "mode": {
       "label": "Režim",
-      "hint": "´Výchozí´pro použití výchozího nastavení boje, ´Zakázáno´ pro skrytí zvýrazňovače tahu, nebo ´Vlastní´ pro specifické chování zvýrazňovače."
+      "hint": "'Výchozí' pro použití výchozího nastavení boje, 'Zakázáno' pro skrytí zvýrazňovače tahu, nebo 'Vlastní' pro specifické chování zvýrazňovače."
     },
     "animation": {
       "label": "Animace",
@@ -3634,8 +3669,8 @@
       "hint": "Výběr obrázku či videa, které se použije jako zvýrazňovač tahu tohoto tokenu."
     },
     "disposition": {
-      "label": "Zabarvení podle postoje?",
-      "hint": "Obarví zvýrazňovač tahu tohoto tokenu podle jeho postoje."
+      "label": "Zbarvit dle postoje?",
+      "hint": "Zaškrtnutí zabarví zvýrazňovač tahu tohoto tokenu podle jeho postoje."
     }
   },
   "displayBars.label": "Zobrazení pruhů",
@@ -3791,8 +3826,8 @@
     "coreSteel": "Ocelový prstenec Foundry VTT",
     "coreBronze": "Bronzový kruh prstenec Foundry VTT",
     "FIT_MODES": {
-      "label": "Režimy přizpůsobení dynamického prstence",
-      "hint": "Volba režimu přizpůsobení dynamického prstence.",
+      "label": "Režimy dynamického prstence",
+      "hint": "Přizpůsobení režimu dynamického prstence.",
       "subject": "Standardní",
       "grid": "Mřížka"
     }
@@ -3871,32 +3906,32 @@
 "TEXTURE_DATA.FIT.height": "Celá výška",
 
 "TOURS": {
-  "NavLabel" : "Karty správy prohlídek" ,
-  "ShowMeHow" : "Ukázat mi jak",
-  "TourCategories" : "Kategorie prohlídek",
-  "AllTours" : "Všechny prohlídky",
-  "ResetAll" : "Resetovat všechny prohlídky",
-  "TourFilter" : "Filtr prohlídek",
-  "TourName" : "Název prohlídky",
-  "Start" : "Začít prohlídku",
-  "Resume" : "Pokračovat v prohlídce",
-  "Restart" : "Začít prohlídku od začátku",
-  "Reset" : "Resetovat pokrok prohlídky",
-  "NotStarted" : "Nebylo zahájeno",
-  "InProgress" : "Probíhá - {current}/{total}",
-  "Completed" : "Dokončeno",
-  "ResetTitle" : "Resetovat prohlídky",
-  "ResetWarning" : "Přeješ si resetovat všechny pokroky prohlídek?",
-  "ResetSuccess" : "Stav dokončení všech prohlídek byl resetován.",
-  "SuggestedTitle" : "Navrhovaná další prohlídka",
-  "SuggestedDescription" : "<p>Prohlídka <strong>{currentTitle}</strong> byla dokončena.</p><p>Navrhujeme pokračovat na prohlídku <strong>{nextTitle}</strong>. Chceš pokračovat?</p>"
+  "NavLabel": "Karty správy prohlídek",
+  "ShowMeHow" : "Ukázat mi jak.",
+  "TourCategories": "Kategorie prohlídek",
+  "AllTours": "Všechny prohlídky",
+  "ResetAll": "Resetovat všechny prohlídky",
+  "TourFilter": "Filtr prohlídek",
+  "TourName": "Název prohlídky",
+  "Start": "Začít prohlídku",
+  "Resume": "Pokračovat v prohlídce",
+  "Restart": "Začít prohlídku od začátku",
+  "Reset": "Resetovat pokrok prohlídky",
+  "NotStarted": "Nebylo zahájeno",
+  "InProgress": "Probíhá - {current}/{total}",
+  "Completed": "Dokončeno",
+  "ResetTitle": "Resetovat prohlídky",
+  "ResetWarning": "Přeješ si resetovat všechny pokroky prohlídek?",
+  "ResetSuccess": "Stav dokončení všech prohlídek byl resetován.",
+  "SuggestedTitle": "Navrhovaná další prohlídka",
+  "SuggestedDescription": "<p>Prohlídka <strong>{currentTitle}</strong> byla dokončena.</p><p>Navrhujeme pokračovat na prohlídku <strong>{nextTitle}</strong>. Chceš pokračovat?</p>"
 },
 
 "USER": {
   "FIELDS": {
     "name": {
       "label": "Jméno hráče",
-      "hint": "Jména hráčů musí být nastavena GM a mohou být změněna na kartě správy uživatelů."
+      "hint": "Jména hráčů musí nastavit GM a mohou být změněna na kartě správy uživatelů."
     },
     "avatar": {
       "label": "Avatar hráče",
@@ -3926,7 +3961,7 @@
     }
   },
     "MESSAGES": {
-      "KICKED": "Uživatel {user} byl ve světě <strong>vykopnut</strong>.",
+      "KICKED": "Uživatel {user} byl ze světa <strong>vykopnut</strong>.",
       "BANNED": "Uživatel {user} byl ve světě <strong>zabanován</strong>.",
       "UNBANNED": "Uživatel {user} byl ve světě <strong>odbanován</strong>."
   },
@@ -4031,8 +4066,8 @@
 "WALL.DoorSounds.MagicDoor": "Magické dveře",
 "WALL.DoorSounds.MagicWall": "Magická zeď",
 "WALL.DoorSounds.Metal": "Kovové",
-"WALL.DoorSounds.SlidingMetal": "Posouvající se kov (lehké)",
-"WALL.DoorSounds.SlidingMetalHeavy": "Posouvající se kov (těžké)",
+"WALL.DoorSounds.SlidingMetal": "Lehce drhnoucí kov",
+"WALL.DoorSounds.SlidingMetalHeavy": "Těžce drhnoucí kov",
 "WALL.DoorSounds.SlidingModern": "Posuvné, moderní",
 "WALL.DoorSounds.SlidingWood": "Posuvné, dřevěné",
 "WALL.DoorSounds.StoneBasic": "Kamenné",
@@ -4071,10 +4106,10 @@
   "TooltipConfigure": "Otevřít nastavení",
   "TooltipDock": "Připnout k okraji",
   "TooltipPopout": "Otevřít v okně",
-  "PTTKeyWarn": "Klávesa pro push-to-talk používá zastaralou hodnotu a nemusí fungovat správně: nastav ji znovu.",
+  "PTTKeyWarn": "Klávesa aktivace mikrofonu používá zastaralou hodnotu a nemusí fungovat správně: nastav ji znovu.",
   "VoiceModeAlways": "Vždy aktivní",
   "VoiceModeActivity": "Aktivace hlasem",
-  "VoiceModePtt": "Push-to-talk",
+  "VoiceModePtt": "Aktivace klávesou",
   "DockPositionTop": "Nahoře",
   "DockPositionRight": "Vpravo",
   "DockPositionBottom": "Dole",
@@ -4116,7 +4151,7 @@
   "WorldSettings": {
     "FIELDS": {
       "mode": {
-        "label": "Režim konferencí",
+        "label": "Režim konference",
         "hint": "Nastavení specifická pro integrovanou komponentu WebRTC zvuku a videa."
       },
       "turn": {
